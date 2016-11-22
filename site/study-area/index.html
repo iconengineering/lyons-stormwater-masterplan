@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css" rel="stylesheet">
+    
+      
+        <title>Study Area - Lyons Stormwater Masterplan</title>
+      
+      
+      
+        <link rel="canonical" href="http://iconengineering.github.io/lyons-stormwater-masterplan/study-area/">
+      
+      
+        <meta name="author" content="ICON Engineering">
+      
+    
+    <meta property="og:url" content="http://iconengineering.github.io/lyons-stormwater-masterplan/study-area/">
+    <meta property="og:title" content="Lyons Stormwater Masterplan">
+    <meta property="og:image" content="http://iconengineering.github.io/lyons-stormwater-masterplan/study-area//../assets/img/Lyons.png">
+    <meta name="apple-mobile-web-app-title" content="Lyons Stormwater Masterplan">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../assets/img/Lyons.png">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../assets/fonts/icon.eot?52m981');
+      	src: url('../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../assets/stylesheets/application-c279a209f4.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/palettes-d790dcf0d5.css">
+    
+    
+      
+      
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson Text:300,400,500,700|Ubuntu+Mono">
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open Sans:300,400,500,700|Ubuntu+Mono">
+      <style>
+        h1,h2,h3,h4,h5,h6 {
+          font-family: 'Crimson Text', Helvetica, Arial, sans-serif;
+        }
+        body, input {
+          font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
+    <script src="../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-grey palette-accent-teal">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+          </span>
+        
+        Lyons Stormwater Masterplan <span class="subtitle">Study Area</span>
+      </div>
+    </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/iconengineering" title="@iconengineering on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/iconengineering/lyons-stormwater-masterplan" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../assets/img/Lyons.png">
+        </div>
+      
+      <div class="name">
+        <strong>
+          Lyons Stormwater Masterplan
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          iconengineering/lyons-stormwater-masterplan
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="http://www.iconeng.com/wordpress/wp-content/uploads/2015/09/Leyden-Creek-Major-Drainageway-Plan-2015.pdf" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download PDF
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Table of Contents" href="..">
+      Table of Contents
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Introduction" href="../introduction/">
+      Introduction
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="current" title="Study Area" href="./">
+      Study Area
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="2.1 Project Area" href="#21-project-area">
+                2.1 Project Area
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="2.2 Land use" href="#22-land-use">
+                2.2 Land use
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="2.3 Outfall Descriptions" href="#23-outfall-descriptions">
+                2.3 Outfall Descriptions
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Hydrologic Analysis" href="../hydrology/">
+      Hydrologic Analysis
+    </a>
+    
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+            
+              
+              <li>
+                <a href="https://github.com/iconengineering" target="_blank" title="@iconengineering on GitHub">
+                  @iconengineering on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="20-study-area-description">2.0 Study Area Description<a class="headerlink" href="#20-study-area-description" title="Permanent link"></a></h1>
+<h2 id="21-project-area">2.1 Project Area<a class="headerlink" href="#21-project-area" title="Permanent link"></a></h2>
+<p>The project area includes the subbasins tributary to the North Saint
+Vrain Creek, South Saint Vrain Creek, Red Hill Gulch, and Stone Canyon
+within the Town of Lyons. The total drainage area studied is
+approximately 8.6 square miles.</p>
+<p>Existing drainage in the Town reflects open channel drainageways in
+combination with storm sewer conveyance for more urbanized areas. Most
+of the Town's existing drainage infrastructure is undersized due to the
+increase in development within the Town during the 1990s. The existing
+conveyance system has the capacity to convey nuisance flows, but it does
+not have the capacity to convey even the minor (5-year) storm events.</p>
+<h2 id="22-land-use">2.2 Land use<a class="headerlink" href="#22-land-use" title="Permanent link"></a></h2>
+<p>The study area watershed is comprised of a combination of Hydrologic
+Soil Group (HSG) A, B, C, and D soils as classified by the Natural
+Resources Conservation Service (NRCS). These soil types are very
+intermixed with HSG A soils (i.e. soils with increased hydrologic
+conductivity) covering areas such as downtown locations, and north-south
+along the eastern basin limits. HSG B soils cover the least area in the
+watershed, with locations predominately along Saint Vrain Creek, and
+north and south branches. HSG C soils are represented along a
+north-south plane, along the easternmost portions of the watershed.
+Finally, HSG D soils (i.e. soils with the least potential for hydrologic
+conductivity) represent the greatest are of the watershed and are
+predominately located towards the northern and western watershed limits,
+covering rock outcrops and other less permeable sources. A soil map of
+the watershed can be found in <em>Appendix B.</em></p>
+<p>It should be noted that for the study area, the HSG A soils are
+colluvial land type soil. According to the colluvial land soil
+description, the depth to restrictive feature is 2 to 60 inches to
+lithic bedrock. Because of the underlying bedrock, it was assumed that
+the HSG A soils would have the drainage characteristics of HSG B soils.</p>
+<div class="code"><pre><span></span>![sample-pic](sample-pic.png)  
+*This is a sample picture*
+</pre></div>
+
+
+<p>Land use was determined by compiling information from the 2009 Zoning
+District Map, 2010 Lyons Planning Area Map, and by ground-truthing the
+land cover based on an October 2015 aerial image of the watershed. Each
+land use category was assigned a percent imperviousness with guidance
+from Chapter 6 - Runoff of the UDFCD Urban Storm Drainage Criteria
+Manual. Table 2-1 outlines the land use categories and the corresponding
+percent imperviousness. In addition to the land use categories found in
+Table 2-1, Boulder County Open Space land use represented a significant
+portion of the watershed. Table 2-2 displays the soil types used to
+calculate imperviousness for the Boulder County Open Space land use
+category.</p>
+<h6 id="table-2-1-land-use-description">Table 2-1: Land Use Description<a class="headerlink" href="#table-2-1-land-use-description" title="Permanent link"></a></h6>
+<table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
+<tr>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Land Use Category
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+UDFCD Equivalent
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Imperviousness
+</th>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+Agriculture
+</td>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+Undeveloped: Greenbelts, agricultural
+</td>
+<td align="NA" style="border-left: 0px solid black;background-color: #E5E4E2;">
+2%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Business
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Business: Downtown areas
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+95%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Park
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Parks, cemeteries
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+10%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Municipal Facilities
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Business: Suburban areas
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+75%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Estate Residential1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Residential: Single Family: 2.5 acres or larger
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+35%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Low Density Residential1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Residential: Single Family: 0.25-0.75 acres
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+75%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Medium Density Residential1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Residential: Single Family: 0.75-2.5 acres
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+85%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Commercial
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Business: Downtown areas
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+95%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Employment Area
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Business: Downtown areas
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+95%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Commercial Entertainment
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Business: Downtown areas
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+95%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Light Industrial
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Industrial: Light areas
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+80%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+General Industrial
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Industrial: Heavy areas
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+90%
+</td>
+</tr>
+</table>
+
+<h6 id="table-2-2-soil-types-found-in-boulder-county-open-space-land-use-category">Table 2-2: Soil Types Found in Boulder County Open Space Land Use Category<a class="headerlink" href="#table-2-2-soil-types-found-in-boulder-county-open-space-land-use-category" title="Permanent link"></a></h6>
+<table align="center" style="border-collapse: collapse; caption-side:top; font-size:10pt;">
+<tr>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Soil Unit
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+HSG
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Soil Type
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Drainage Class
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Runoff Class
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Rock Outcrop
+</th>
+<th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid gray;border-top: 2px solid gray;">
+Imperviousness
+</th>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+MdB
+</td>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+A
+</td>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+sandy loam
+</td>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+well
+</td>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+very low
+</td>
+<td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
+</td>
+<td align="NA" style="border-left: 0px solid black;background-color: #E5E4E2;">
+2%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Nh
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+B
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+loam
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+poorly
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+very low
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+2%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Cu
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+A
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+gravelly sandy loam
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+excessively
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+low
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+5%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+NnB
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+C
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+sandy clay loam
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+well
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+medium
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+8%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+SmF
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+C
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+stony loam
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+well
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+high
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+10%
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+10%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+BaF
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+D
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+very stony sandy loam
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+well
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+very high
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+10%
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+10%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+PrF
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+D
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+very stony loamy fine sand
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+well
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+very high
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+35%
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+35%
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Ro
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+D
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+unweathered bedrock
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+N/A
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+very high
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+100%
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+100%
+</td>
+</tr>
+</table>
+
+<p>It should be noted that land use category corresponds to the 2010 Lyons
+Planning Area Map. However, in some cases, the planning description and
+corresponding lot size were not representative of what is observed
+through aerial imagery and field reconnaissance. In these cases, the
+imperviousness percentages were revised to be more representative of
+what was observed.</p>
+<p>Future imperviousness was determined by comparing the land use in the
+2010 Lyons Planning Area Map to current aerial imagery, and noting which
+areas of the Town could be further developed based on the planning
+guidance.</p>
+<h2 id="23-outfall-descriptions">2.3 Outfall Descriptions<a class="headerlink" href="#23-outfall-descriptions" title="Permanent link"></a></h2>
+<p>Outfalls within the watershed were categorized based on their spatial
+location whether the outfall discharges into the Greeley No. 3 Canal or
+to the Cache La Poudre River.</p>
+<p>An inventory of all major storm drainage structures can be found in
+<em>Table 4-1</em> and <em>Table 4-2</em>.</p>
+<p>An outfall map can be found in <em>Figure 2-2</em> and on the interactive map
+in <em>Appendix B</em>.</p>
+          <aside class="copyright" role="note">
+            
+              Copyright (c) 2016 ICON Engineering, Inc. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../introduction/" title="Introduction">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Introduction
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../hydrology/" title="Hydrologic Analysis">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Hydrologic Analysis
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '..';
+      var repo_id  = 'iconengineering/lyons-stormwater-masterplan';
+    </script>
+    <script src="../assets/javascripts/application-dfb6964a49.js"></script>
+    
+    
+      <script>
+        (function(i,s,o,g,r,a,m){
+          i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||
+          []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;
+          m.parentNode.insertBefore(a,m)
+        })(window, document,
+          'script', '//www.google-analytics.com/analytics.js', 'ga');
+        /* General initialization */
+        ga('create', 'UA-66511604-1', 'iconengineering.github.io');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        /* Track outbound links */
+        var buttons = document.querySelectorAll('a');
+        Array.prototype.map.call(buttons, function(item) {
+          if (item.host != document.location.host) {
+            item.addEventListener('click', function() {
+              var action = item.getAttribute('data-action') || 'follow';
+              ga('send', 'event', 'outbound', action, item.href);
+            });
+          }
+        });
+        /* Register handler to log search on blur */
+        var query = document.querySelector('.query');
+        query.addEventListener('blur', function() {
+          if (this.value) {
+            var path = document.location.pathname;
+            ga('send', 'pageview', path + '?q=' + this.value);
+          }
+        });
+      </script>
+    
+  </body>
+</html>

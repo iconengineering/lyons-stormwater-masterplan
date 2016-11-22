@@ -1,0 +1,52 @@
+# Project information
+site_name: Lyons Stormwater Masterplan
+site_description: Authored by ICON Engineering for the Town of Lyons
+site_author: ICON Engineering
+site_url: http://iconengineering.github.io/lyons-stormwater-masterplan/
+site_favicon: assets/img/favicon.ico
+google_analytics: ['UA-66511604-1', 'iconengineering.github.io']
+
+# Repository
+repo_name: GitHub
+repo_url: https://github.com/iconengineering/lyons-stormwater-masterplan
+
+
+# Copyright
+copyright: Copyright (c) 2016 ICON Engineering, Inc.
+
+# Page tree
+pages:
+  - Table of Contents: index.md
+  - Introduction: introduction.md
+  - Study Area: study-area.md
+  - Hydrologic Analysis: hydrology.md
+
+# Documentation and theme
+theme_dir: '../mkdocs-material/material'
+extra_javascript:
+extra_css:
+  - 'assets/css/extra.css'
+
+# Options
+extra:
+  pdfurl: 'http://www.iconeng.com/wordpress/wp-content/uploads/2015/09/Leyden-Creek-Major-Drainageway-Plan-2015.pdf'
+  logo: assets/img/Lyons.png
+  author:
+    github: iconengineering
+  palette:
+    primary: 'grey'
+    accent: 'teal'
+  font:
+    header: 'Crimson Text'
+    text: 'Open Sans'
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.footnotes
+  - superscript
+  - subscript
+  - codehilite(css_class=code)
+  - admonition
+  - extra
+  - toc:
+      permalink: ''
