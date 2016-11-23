@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css" rel="stylesheet">
+    
+      
+        <title>Storm Water Utility - Lyons Stormwater Masterplan</title>
+      
+      
+      
+        <link rel="canonical" href="http://iconengineering.github.io/lyons-stormwater-masterplan/storm-water-utility/">
+      
+      
+        <meta name="author" content="ICON Engineering">
+      
+    
+    <meta property="og:url" content="http://iconengineering.github.io/lyons-stormwater-masterplan/storm-water-utility/">
+    <meta property="og:title" content="Lyons Stormwater Masterplan">
+    <meta property="og:image" content="http://iconengineering.github.io/lyons-stormwater-masterplan/storm-water-utility//../assets/img/Lyons.png">
+    <meta name="apple-mobile-web-app-title" content="Lyons Stormwater Masterplan">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../assets/img/Lyons.png">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../assets/fonts/icon.eot?52m981');
+      	src: url('../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../assets/stylesheets/application-c279a209f4.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/palettes-d790dcf0d5.css">
+    
+    
+      
+      
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson Text:300,400,500,700|Ubuntu+Mono">
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open Sans:300,400,500,700|Ubuntu+Mono">
+      <style>
+        h1,h2,h3,h4,h5,h6 {
+          font-family: 'Crimson Text', Helvetica, Arial, sans-serif;
+        }
+        body, input {
+          font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../assets/css/extra.css">
+    
+    <script src="../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-grey palette-accent-teal">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+          </span>
+        
+        Lyons Stormwater Masterplan <span class="subtitle">Storm Water Utility</span>
+      </div>
+    </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/iconengineering" title="@iconengineering on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/iconengineering/lyons-stormwater-masterplan" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../assets/img/Lyons.png">
+        </div>
+      
+      <div class="name">
+        <strong>
+          Lyons Stormwater Masterplan
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          iconengineering/lyons-stormwater-masterplan
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://iconengineering.github.io/lyons-stormwater-masterplan/assets/LyonsDraftReport.pdf" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download PDF
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Table of Contents" href="..">
+      Table of Contents
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Introduction" href="../introduction/">
+      Introduction
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Study Area" href="../study-area/">
+      Study Area
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Hydrologic Analysis" href="../hydrology/">
+      Hydrologic Analysis
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Hydraulic Analysis" href="../hydraulics/">
+      Hydraulic Analysis
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Flood Hazard Area Mapping" href="../flood-mapping/">
+      Flood Hazard Area Mapping
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Alternative Analysis" href="../alternative-analysis/">
+      Alternative Analysis
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Water Quality Improvements" href="../water-quality-improvements/">
+      Water Quality Improvements
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Capital Improvements Plan" href="../capital-improvements/">
+      Capital Improvements Plan
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="System Maintenance" href="../system-maintenance/">
+      System Maintenance
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="current" title="Storm Water Utility" href="./">
+      Storm Water Utility
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="10.1 What is a Stormwater Utility" href="#101-what-is-a-stormwater-utility">
+                10.1 What is a Stormwater Utility
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="10.2 Stormwater Utility Fee Study Outline" href="#102-stormwater-utility-fee-study-outline">
+                10.2 Stormwater Utility Fee Study Outline
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="10.3 Use of Funds" href="#103-use-of-funds">
+                10.3 Use of Funds
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="10.4 Range of Nearby Stormwater Utility Fees" href="#104-range-of-nearby-stormwater-utility-fees">
+                10.4 Range of Nearby Stormwater Utility Fees
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Conclusion" href="../conclusion/">
+      Conclusion
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Appendices" href="../appendices/">
+      Appendices
+    </a>
+    
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+            
+              
+              <li>
+                <a href="https://github.com/iconengineering" target="_blank" title="@iconengineering on GitHub">
+                  @iconengineering on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="100-storm-water-utility">10.0 Storm Water Utility<a class="headerlink" href="#100-storm-water-utility" title="Permanent link"></a></h1>
+<p>This study evaluated the existing stormwater infrastructure and proposed
+new stormwater infrastructure to mitigate flood risk. To improve
+resiliency of the Town to flood disasters, there is an infrastructure
+solution but that requires a significant capital investment. Grants,
+joint projects, cost shares, and other large scale funding mechanisms
+will be useful for making those improvements. But a regular funding
+source for stormwater improvements is equally valuable. A stormwater fee
+can offset the routine costs of operation and maintenance of stormwater
+facilities that may otherwise be overlooked in the regular municipal
+budgeting process. The fee is as much a reminder for proper care of the
+existing infrastructure as it is a financial support to critical public
+facilities.</p>
+<p>Stormwater fees can be controversial. A stormwater fee supported by
+defensible cost projections and allocated on a reasonable and controlled
+metric can be less controversial than broad based uniform fees. Details
+of a storm water utility implementation are beyond the scope of this
+master plan. However, additional information is provided here to start
+the conversation about implementing a mechanism to fund routine
+stormwater maintenance and projects.</p>
+<p>Stormwater fees exist in many communities along Colorado's front range,
+some have been around for decades and others are more recently adopted.</p>
+<h2 id="101-what-is-a-stormwater-utility">10.1 What is a Stormwater Utility<a class="headerlink" href="#101-what-is-a-stormwater-utility" title="Permanent link"></a></h2>
+<p>The basic concept of a stormwater utility is to charge property owners
+for the amount of impervious area on their property in return for
+providing construction and maintenance of a stormwater system.
+Impervious area consists of manmade surfaces, which prevent the
+infiltration of rainfall and snowmelt into the ground, and include;
+buildings, driveways, parking lots, patios, commercial and industrial
+roads, private roads, and other "hard" surfaces. It can be estimated
+that runoff from these impervious surfaces increases 2 to 3 times from
+what the runoff was when the parcel was undeveloped. In addition, the
+water quality of the stormwater is worse than it was when the parcel was
+undeveloped.</p>
+<p>Most stormwater utilities therefore have a fee based on the amount of
+impervious area on each parcel. This type of fee, if developed
+correctly, has been upheld in the courts of Colorado as a legal fee.
+Under the Tax Payers Bill of Rights (TABOR), a utility is termed an
+enterprise and is allowed if its meets the TABOR definition of an
+enterprise. Under this definition, an enterprise is a government owned
+business (similar to a water or sewer utility), which derives 90% or
+more of its revenue from non-governmental sources.</p>
+<h2 id="102-stormwater-utility-fee-study-outline">10.2 Stormwater Utility Fee Study Outline<a class="headerlink" href="#102-stormwater-utility-fee-study-outline" title="Permanent link"></a></h2>
+<p>Phase A - Feasibility Study. A data collection and litmus test for
+feasibility of the stormwater fee. This introduces the concept and
+builds the project team of consultants, staff, legal representatives,
+and engineers. This study results in a budget level estimate of fees
+that could be generated from several alternative mechanisms. (i.e.
+impervious area, rooftop area, lot size, etc.) The billing options are
+usually a key driving factor in the decision for how the fee is
+implemented. A town with existing billing systems for water and sewer
+may be able to easily add on a stormwater fee to the existing invoicing
+and collections systems. However, depending on billing systems or
+operational constraints, a separate invoice may need to be developed
+with its own schedule. These initial research results will then be
+compared to adjacent communities and discussed amongst the project team
+to determine a preferred approach. It is at this point the scope of the
+fee will be identified and limitations on how the funds can be spent
+will be drafted. This work should take between 3 and 4 months and not
+require any legislative action.</p>
+<p>Phase B – Preliminary Plan. The initial preferences are formalized into
+a preliminary plan that can be presented to staff, councils, and the
+general public for review and comment. A municipal and public process
+can revise and adjust the fees, structure, and invoicing to fit the
+needs of the administration and general public. This preliminary plan
+will provide a more accurate estimate of impervious area or other
+metrics selected to quantify the fee across various properties. A
+selection of a rate structure and any classifications of properties
+(i.e. private, public, non-profit, etc.) can be made at this stage.
+Billing options will be finalized. And inherent to the more defined rate
+structure will be a discussion on potential credits to the fee (i.e.
+installation of rain barrels saves 10% of the fee per year, etc.). An
+implementation cost for new software, systems, adjustment of existing
+systems, or migration of existing processes can be estimated. This work
+could take as long as 6 months and may require public hearings or other
+administrative processes to document the public process.</p>
+<p>Phase C – Implementation. This process finalizes the preliminary plan
+and results in the delivery of the first stormwater fee invoices to the
+community. Consequently, additional public outreach is necessary. Rate
+classes are finalized for single family, multi family, commercial,
+public, non-profit and other criteria. A financial outlook projecting
+revenues and expenditures should be developed to support the final
+adoption of the fee. Public works staff and consultants can be utilized
+to prioritize stormwater utility routine tasks, annual procedures,
+emergency operation allowances, and qualified special projects. A budget
+for routine tasks may involve a monthly allocation for 12 hours of vac
+truck time for stormwater inlet cleaning. An annual procedure may be an
+inventory of outfall conditions town-wide. Emergency operation
+allowances can be an agreement that specifies how much of the annual
+stormwater fee budget is reserved for emergency repairs and operations.
+A list of qualifications for special projects that can use the
+stormwater fee can be developed to provide guidance for staff and
+consultants to use when calls on the stormwater fee are made for repair,
+rehabilitation or improvement of stormwater infrastructure. Before
+presentation of the fee to the legislative process, a trial run of the
+billing, time keeping, and tracking systems should be run. In some
+cases, this can be a staged implementation where the fee is instituted
+for public facilities at a trial rate of $1 per parcel. When those
+systems are functional, the whole project can be presented to council
+for adoption.</p>
+<h2 id="103-use-of-funds">10.3 Use of Funds<a class="headerlink" href="#103-use-of-funds" title="Permanent link"></a></h2>
+<p>There can be specific study of how the funds are used. How the funds are
+transferred within the Town's accounting system is important and
+includes how the Town staff records their expenses related to
+stormwater. The funds from a stormwater utility should be used primarily
+for projects benefitting existing development because the existing
+property owners pay the fees. New developers are expected to pay their
+share of major drainage projects serving new development, because they
+are responsible for the excess stormwater their development creates. New
+developments are responsible for the minor drainage infrastructure
+within their development such as street drainage systems, and minor
+system pipes and channels conveying water to the major drainage
+facilities.</p>
+<h2 id="104-range-of-nearby-stormwater-utility-fees">10.4 Range of Nearby Stormwater Utility Fees<a class="headerlink" href="#104-range-of-nearby-stormwater-utility-fees" title="Permanent link"></a></h2>
+<p>The existing stormwater utilities in nearby communities can provide a
+rough estimate for what a fee may be in Lyons. The range is from less
+than $1 to more than $11. Berthoud has a fee of approximately $2.50 per
+single family residential unit. Greeley, a much larger community, has a
+fee of just over $5 per single family unit. Loveland has a fee over $11
+and has been in existence since the early 1980s. In general, the average
+around the front range of Colorado is about $5 per single family
+residential unit. However, the average can be misleading as the
+variables for how the fee is paid, used, and allocated changes for every
+community, land use, and sometimes by year.</p>
+          <aside class="copyright" role="note">
+            
+              Copyright (c) 2016 ICON Engineering, Inc. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../system-maintenance/" title="System Maintenance">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                System Maintenance
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../conclusion/" title="Conclusion">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Conclusion
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '..';
+      var repo_id  = 'iconengineering/lyons-stormwater-masterplan';
+    </script>
+    <script src="../assets/javascripts/application-dfb6964a49.js"></script>
+    
+    
+      <script>
+        (function(i,s,o,g,r,a,m){
+          i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||
+          []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;
+          m.parentNode.insertBefore(a,m)
+        })(window, document,
+          'script', '//www.google-analytics.com/analytics.js', 'ga');
+        /* General initialization */
+        ga('create', 'UA-66511604-1', 'iconengineering.github.io');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        /* Track outbound links */
+        var buttons = document.querySelectorAll('a');
+        Array.prototype.map.call(buttons, function(item) {
+          if (item.host != document.location.host) {
+            item.addEventListener('click', function() {
+              var action = item.getAttribute('data-action') || 'follow';
+              ga('send', 'event', 'outbound', action, item.href);
+            });
+          }
+        });
+        /* Register handler to log search on blur */
+        var query = document.querySelector('.query');
+        query.addEventListener('blur', function() {
+          if (this.value) {
+            var path = document.location.pathname;
+            ga('send', 'pageview', path + '?q=' + this.value);
+          }
+        });
+      </script>
+    
+  </body>
+</html>

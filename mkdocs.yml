@@ -20,6 +20,15 @@ pages:
   - Introduction: introduction.md
   - Study Area: study-area.md
   - Hydrologic Analysis: hydrology.md
+  - Hydraulic Analysis: hydraulics.md
+  - Flood Hazard Area Mapping: flood-mapping.md
+  - Alternative Analysis: alternative-analysis.md
+  - Water Quality Improvements: water-quality-improvements.md
+  - Capital Improvements Plan: capital-improvements.md
+  - System Maintenance: system-maintenance.md
+  - Storm Water Utility: storm-water-utility.md
+  - Conclusion: conclusion.md
+  - Appendices: appendices.md
 
 # Documentation and theme
 theme_dir: '../mkdocs-material/material'
@@ -29,7 +38,7 @@ extra_css:
 
 # Options
 extra:
-  pdfurl: 'http://www.iconeng.com/wordpress/wp-content/uploads/2015/09/Leyden-Creek-Major-Drainageway-Plan-2015.pdf'
+  pdfurl: 'https://iconengineering.github.io/lyons-stormwater-masterplan/assets/LyonsDraftReport.pdf'
   logo: assets/img/Lyons.png
   author:
     github: iconengineering
