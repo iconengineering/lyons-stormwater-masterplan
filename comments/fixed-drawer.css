@@ -77,3 +77,20 @@ html, body {
 .collapsible-body p:last-child {
   padding: 0;
 }
+
+.popup {
+  width: 250px !important;
+  max-width: 60vw !important;
+}
+
+.popup>.col>.row, input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+  margin-bottom: 0;
+}
+
+.input-field label.active {
+  transform: translateY(-100%);
+}
+
+input, textarea {
+  color: rgba(0,0,0,.87);
+}
