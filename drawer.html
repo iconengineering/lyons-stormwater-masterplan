@@ -36,9 +36,7 @@
         {% for link in config.extra.links %}
         <ul class="repo">
           <li class="repo-download">
-            <a href="{{ base_url }}/{{ link.url }}" title="{{ link.title }}">
-              {{ link.title }}
-            </a>
+            <a href="{{ base_url }}/{{ link.url }}" title="{{ link.title }}" style="padding-left: 10px;">{{ link.title }}</a>
           </li>
         </ul>
         {% endfor %}
