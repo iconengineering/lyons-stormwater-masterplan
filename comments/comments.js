@@ -8,12 +8,13 @@ color = '#' + [
         (~~(Math.random() * 16)).toString(16)].join('');
 
 var map = L.mapbox.map('map','iconeng.kei97ole',{
-      attributionControl: false,
+      zoomControl: false,
       infoControl: true,
       maxZoom:19
     })
-      .addControl(L.mapbox.geocoderControl('mapbox.places-v1'))
       .setView([40.22,-105.27], 14);
+
+    new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
 var url = 'https://{s}.tiles.mapbox.com/v4/iconeng.f28db60c/{z}/{x}/{y}.vector.pbf?access_token=pk.eyJ1IjoiaWNvbmVuZyIsImEiOiJjaXBwc2V1ZnMwNGY3ZmptMzQ3ZmJ0ZXE1In0.mo_STWygoqFqRI-od05qFg';
 

@@ -26,13 +26,24 @@
       {% if config.extra.pdfurl %}
         <ul class="repo">
           <li class="repo-download">
-            <a href="{{ config.extra.pdfurl }}" target="_blank" title="Download" data-action="download">
+            <a href="{{ base_url }}/{{ config.extra.pdfurl }}" target="_blank" title="Download" data-action="download">
               <i class="icon icon-download"></i> Download PDF
             </a>
           </li>
         </ul>
-        <hr>
       {% endif %}
+      {% if config.extra.links %}
+        {% for link in config.extra.links %}
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="{{ base_url }}/{{ link.url }}" title="{{ link.title }}">
+              {{ link.title }}
+            </a>
+          </li>
+        </ul>
+        {% endfor %}
+      {% endif %}
+      <hr>
       <div class="toc">
         <ul>
           {% for nav_item in nav %}

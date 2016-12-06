@@ -41,7 +41,7 @@
 <body>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
     <div class="mdl-layout__drawer mdl-color--grey-700 mdl-color-text--grey-50 mdl-shadow--2dp">
-      <h4 style="padding-left:1rem;">Town of Lyons<br/>Stormwater Masterplan<br/>Community Comments</h4>
+      <a href="../" class="teal-text text-lighten-2"><h4 style="padding-left:1rem;">Town of Lyons<br/>Stormwater Masterplan</a><br/>Community Comments</h4>
       <ul class="collapsible" data-collapsible="expandable" style="border-right: none; border-left: none;">
         <li>
           <div class="collapsible-header active grey"><i class="material-icons right">keyboard_arrow_down</i>Instructions</div>
@@ -61,19 +61,56 @@
           <div class="collapsible-header active grey"><i class="material-icons right">keyboard_arrow_down</i>Legend</div>
           <div class="collapsible-body white">
             <ul class="collection grey-text text-darken-4">
-              <li class="collection-item"><div>100-Year Floodplain<a href="#!" class="secondary-content"><i class="material-icons" style="color: rgba(109,23,143,.6)">stop</i></a></div></li>
+              <li class="collection-item"><div>100-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons" style="color: rgba(109,23,143,.6)">stop</i></a></div></li>
               <li class="collection-item"><div>At-Risk Structures<a href="#!" class="secondary-content"><i class="material-icons" style="color: #1de9b6">stop</i></a></div></li>
             </ul>
           </div>
         </li>
       </ul>
+      <div class="mdl-grid">
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn" data-target="modal1">View the Disclaimer</a>
+       </div>
     </div>
     <main class="mdl-layout__content">
       <div class="page-content">
         <div id='map'></div>
       </div>
     </main>
+
+    <!-- Modal Structure -->
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4>Welcome to the Community Comment Map</h4>
+                  <p>This is the community comment map for the Town of Lyons Stormwater Masterplan.
+                  </p>
+                  <p>One very important note about the data displayed on this map: the 100-year inundation areas and associated at-risk structures are not representative or derived from the FEMA regulatory 100-year floodplain.
+                  </p>
+                  <p>
+                  The data on this map represents flooding from localized runoff and in no way affects any property owner's regulatory floodplain status.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn">Got It</a>
+                </div>
+              </div>
+
 </div>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    
+    $(window).load(function(){
+    // full load
+      $('#modal1').modal('open');
+    });
+
+    $('.modal').modal('');
+  });
+      
+</script>
 
 <script src="toggleLayer.js"></script>
 <script src="comments.js"></script>
