@@ -106,10 +106,6 @@ recommendations expanded to include smaller towns along the Front Range,
 a lot of Lyons' roadways and private development had encroached on the
 natural drainageways.
 
-[![Problem ID Map](assets/img/Figure4-1.jpg){: .center-img }](assets/img/Figure4-1.jpg){: target="_blank" }
-*Figure 4-1: Problem ID Map*
-{: .caption }
-
 #### 4.3.1 Eagle Canyon
 
 The most significant flooding hazard in the Eagle Canyon Watershed is
@@ -143,54 +139,78 @@ lower portions of the watershed. The steep slopes in the upper portion
 of the watershed result in high velocities of runoff eroding the
 hillside and carrying debris into the residential development.
 
+The Boulder County open space borders these properties and constrains
+the range of solutions for intercepting or diverting these flows.
+However, the lower end of this basin drains well into the confluence
+area of North and South St. Vrain rivers.
+
 #### 4.3.4 Lyons Valley Park
 
 Flooding hazards in the Lyons Valley Park Watershed are a result of
 development within the basin without adequate storm drain conveyance.
 The 18-inch storm drain throughout the upper reaches of the development
-was not design to convey major storm events.
+was not designed to convey major storm events.
 
 A significant flooding hazard for the Lyons Valley Park Watershed is
 overflow from the Red Hill Gulch Watershed. The overflow drainage path
-from Red Hill Gulch is discussion in further detail below.
+from Red Hill Gulch is discussed in further detail below.
 
-An overflow path from the hillside south of the High School is an
-interesting problem. The modeling scenarios do not account for the
-irrigation ditch that traverses the hillside near the toe of slope. This
-is a common hydraulic modeling assumption to account for a runoff event
-during a ditch full scenario. However, in a practical sense the
-irrigation ditch catches most minor storm events and effectively
-protects the adjacent residential structures. At a minimum, the ditch
-should be monitored for stability to ensure overflows and spills from
-stormwater are handled safely. Additional planning for a time when the
-ditch is no longer operational or maintained should be considered.
-Finally, protection or enhancement of the minor swale along the rear lot
-lines of the neighborhood should be considered to ensure sheet flows are
-passed around the structures.
+An overflow path from the hillside south of the High School, Ledge Ditch
+sub-basin, is an interesting problem. The modeling scenarios do not
+account for the irrigation ditch that traverses the hillside near the
+toe of slope. This is a common hydraulic modeling assumption to account
+for a runoff event during a ditch full scenario. However, in a practical
+sense the irrigation ditch catches most minor storm events and
+effectively protects the adjacent residential structures. At a minimum,
+the ditch should be monitored for stability to ensure overflows and
+spills from stormwater are handled safely. Additional planning for a
+time when the ditch is no longer operational or maintained should be
+considered. Finally, protection or enhancement of the minor swale along
+the rear lot lines of the neighborhood should be considered to ensure
+sheet flows are passed around the structures.
 
 #### 4.3.5 North St. Vrain
 
 Flooding hazards in the North St. Vrain Watershed are limited to the
 lower end of the basin. Generally flows in this basin concentrate in
 natural valleys and are conveyed overland towards the St. Vrain River.
+Land use changes in this area have limited the flood risk significantly.
 
 #### 4.3.6 Red Hill Gulch
 
+[![picture](assets/img/4-3-6.jpg){: .center-img }](assets/img/4-3-6.jpg){: target="_blank" } 
+*Flows exceeding the capacity of the South Ledge Ditch continue north in an unconfined flow path*
+{: .caption }
+
 The most significant flooding hazard in the Red Hill Gulch Watershed is
 flow overtopping the South Ledge Ditch and flow continuing north into
-Bohn Park and Lyons Valley Subdivision. Utilizing the ditch for
-intercepting and conveying stormwater runoff creates a significant
-hazard for downstream properties. These comingled flows exceed the
-design capacity of the canal jeopardizing the structural integrity of
-the ditch. Flows overtopping the ditch create an uncontrolled overflow
-impacting Bohn Park and homes in the Lyons Valley Subdivision.
+Bohn Park and Lyons Valley Subdivision. As noted above, utilizing the
+ditch for intercepting and conveying stormwater runoff creates a
+significant hazard for downstream properties. These comingled flows
+exceed the design capacity of the canal jeopardizing the structural
+integrity of the ditch. Flows overtopping the ditch create an
+uncontrolled overflow impacting Bohn Park and homes in the Lyons Valley
+Subdivision.
+
+The surface flows from Red Hill Gulch follow an ancient alluvial fan
+pattern starting at the intersection of Red Hill Gulch Road and Jasper
+Drive and extending north towards the South St. Vrain. The surface flows
+generally follow Red Hill Gulch Road north until it turns west, the
+surface flows continue north east of a high point on County Road 69.
+This is an interesting key point in the surface drainage conditions of
+Red Hill Gulch because the surface flows are so close to the South St.
+Vrain, but instead follow a natural topographic low point
+east-northeast. This ultimately leads to a flow path intersecting with
+Lyons Valley subdivision and the newly planned Bohn Park.
 
 #### 4.3.7 South St. Vrain
 
 Flooding hazards in the South St. Vrain Watershed are generally created
 by the lack of a formal drainage conveyance system. The topography
 within these watersheds conveys the runoff in separate flow paths to
-South St. Vrain Creek.
+South St. Vrain Creek. The flow paths are generally shallow native grass
+and rock swales with minimal impact to private property or public
+infrastructure.
 
 #### 4.3.8 South 2nd Avenue
 
@@ -208,6 +228,10 @@ design flow for the subwatershed, impacting more properties.
 
 #### 4.3.9 Steamboat Valley
 
+[![picture](assets/img/4-3-9a.jpg){: .center-img }](assets/img/4-3-9a.jpg){: target="_blank" } 
+*Existing Steamboat Valley channel lacks conveyance capacity*
+{: .caption }
+
 The most significant flood hazard impacting downtown Lyons is runoff
 from Steamboat Valley. The runoff from the upper watershed concentrates
 behind the old railroad embankment. The area behind the old railroad
@@ -223,6 +247,10 @@ capacity of this channel and culvert roadway crossings between
 hazard damaging private property. Any flow that is not intercepted by
 the historic stone culvert continues on the surface flowing through
 backyards with additional impact to private property and structures.
+
+[![picture](assets/img/4-3-9b.jpg){: .center-img }](assets/img/4-3-9b.jpg){: target="_blank" } 
+*Steamboat Valley at Reese Street between 4th and 5th Avenue*
+{: .caption }
 
 The existing conveyance within Steamboat Valley does not have the
 hydraulic capacity to convey storms greater than the 5-year return

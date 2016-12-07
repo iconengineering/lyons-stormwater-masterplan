@@ -149,6 +149,15 @@ Engineering and associated sub-consultants as part of this contract. All
 survey was also gathered on NAD83 horizontal datum and the NAVD88
 vertical datum.
 
+An inventory of existing storm sewer infrastructure was completed
+between May and July 2016. A photo, description, condition, and location
+of each structure was recorded in the field and stored in a geospatial
+database. The geospatial data has been utilized within the Town's larger
+GIS database. A link to the online repository for the data is available
+for review: [Appendix K](#). This online repository link will expire in
+the near future, but the data is preserved in perpetuity through the
+Town's GIS database.
+
 1.4 Data Collection
 -------------------
 
@@ -214,7 +223,7 @@ UDFCD
 </td>
 </tr>
 <tr>
-<td colspan="3" align="left" style="font-size:9pt ;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden;">
+<td colspan="3" align="left" style="font-size:9pt ;border-top: 1px solid black; border-bottom: hidden;">
 </td>
 </tr>
 </table>

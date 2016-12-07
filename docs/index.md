@@ -76,26 +76,42 @@
 -   [6.5 Alternative Hydraulics](#alternative-hydraulics)
 -   [6.6 Alternative Costs](#alternative-costs)
 -   [6.7 Alternative Plans](#alternative-plans)
-    -   [6.7.1 Red Hill Gulch Overflow
-            Channel](#red-hill-gulch-overflow-channel)
-    -   [6.7.2 Red Hill Gulch Diversion
-            Channel](#red-hill-gulch-diversion-channel)
-    -   [6.7.3 Steamboat Drainage Culvert
-            Replacement](#steamboat-drainage-culvert-replacement)
-    -   [6.7.4 Steamboat Drainage
-            Interceptors](#steamboat-drainage-interceptors)
-    -   [6.7.5 Second Avenue Gutter
-            Interceptor](#second-avenue-gutter-interceptor)
-    -   [6.7.6 Second Avenue Inlets and Storm
-            Sewer](#second-avenue-inlets-and-storm-sewer)
-    -   [6.7.7 Lyons Valley Inlet
-            Improvements](#lyons-valley-inlet-improvements)
-    -   [6.7.8 Lyons Valley South Ditch
-            Improvements](#lyons-valley-south-ditch-improvements)
-    -   [6.7.9 Corona Hill Diversion
-            Ditch](#corona-hill-diversion-ditch)
-    -   [6.7.10 Corona Hill Street
-            Inlets](#corona-hill-street-inlets)
+    -   [A - Red Hill Gulch Overflow Channel
+            East](#a---red-hill-gulch-overflow-channel-east)
+    -   [B - Red Hill Gulch Overflow Channel
+            West](#b---red-hill-gulch-overflow-channel-west)
+    -   [C - Red Hill Gulch Cut-Off
+            Channel](#c---red-hill-gulch-cut-off-channel)
+    -   [D - Steamboat Drainage Culvert
+            Replacement](#d---steamboat-drainage-culvert-replacement)
+    -   [E - Steamboat Drainage
+            Interceptors](#e---steamboat-drainage-interceptors)
+    -   [F - Third Avenue Inlets and Storm
+            Drain](#f---third-avenue-inlets-and-storm-drain)
+    -   [G - Lower 3<sup>rd</sup> Avenue
+            Inlet](#g---lower-3rd-avenue-inlet)
+    -   [H - Third Avenue Drainage
+            Interceptors](#h---third-avenue-drainage-interceptors)
+    -   [I - Eastern Lyons - Second Avenue Gutter
+            Interceptor](#i---eastern-lyons---second-avenue-gutter-interceptor)
+    -   [J - Eastern Lyons - Second Avenue Inlets and Storm
+            Sewer](#j---eastern-lyons---second-avenue-inlets-and-storm-sewer)
+    -   [K - Lyons Valley Inlet
+            Improvements](#k---lyons-valley-inlet-improvements)
+    -   [L - Lyons Valley South Ditch
+            Improvements](#l---lyons-valley-south-ditch-improvements)
+    -   [M - Lyons Valley McConnel Drive
+            Culvert](#m---lyons-valley-mcconnel-drive-culvert)
+    -   [N - Ewald Ave - Corona Hill Diversion
+            Ditch](#n---ewald-ave---corona-hill-diversion-ditch)
+    -   [O - Ewald Ave - Corona Hill Street
+            Inlets](#o---ewald-ave---corona-hill-street-inlets)
+    -   [P - 2<sup>nd</sup> Avenue – Kelling Drive Private
+            Improvements](#p---2nd-avenue-kelling-drive-private-improvements)
+    -   [Q - 2<sup>nd</sup> Avenue – Kelling Drive Interceptor
+            Curbs](#q---2nd-avenue-kelling-drive-interceptor-curbs)
+    -   [R - Stone Canyon Outfall
+            Improvements](#r---stone-canyon-outfall-improvements)
 ### [7.0 Water Quality Improvements](#water-quality-improvements)
 -   [7.1 Small Scale Water Quality
         Improvements](#small-scale-water-quality-improvements)
@@ -104,8 +120,8 @@
     -   [7.1.3 Rainwater Harvesting](#rainwater-harvesting)
 -   [7.2 Large Scale Water Quality
         Improvements](#large-scale-water-quality-improvements)
-    -   [7.2.1 North St. Vrain Water Quality
-            Pond](#north-st.-vrain-water-quality-pond)
+    -   [7.2.1 Confluence Area Water Quality
+            Pond](#confluence-area-water-quality-pond)
     -   [7.2.2 Streambank Wetlands](#streambank-wetlands)
     -   [7.2.3 Pervious Pavers](#pervious-pavers)
 -   [7.3 Outfall Water Quality](#outfall-water-quality)
@@ -126,6 +142,7 @@
 -   [11.4 Water Quality](#water-quality)
 -   [11.5 Public Outreach](#public-outreach)
 -   [11.6 Operation and Maintenance](#operation-and-maintenance)
+-   [11.7 Next Steps](#next-steps)
 ### [Appendices](#appendices)
 
 </div>

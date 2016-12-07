@@ -51,4 +51,9 @@ analysis.
 --------------------------
 
 Conversion of these flood hazard areas to regulatory floodplains is a
-complicated, long, but well documented process.
+complicated, long, but well documented process. At this time, the master
+plan makes no specific recommendation for submitting these floodplain
+delineations to FEMA for formal adoption. As flood recovery projects are
+completed and budgets are set for priority capital improvements, a more
+formal Flood Insurance Study can be considered to accurately map the
+flood hazards to FEMA specifications.

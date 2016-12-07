@@ -88,7 +88,6 @@ precipitation depth-area reduction factors were not utilized. Table 3-1
 summarizes the design rainfall depths for various recurrence intervals.
 
 ###### Table 3-1: 1-hr Rainfall Depth
-
 <table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
 <tr>
 <th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
@@ -139,7 +138,7 @@ Return Period
 </td>
 </tr>
 <tr>
-<td colspan="2" align="left" style="font-size:9pt ;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden;">
+<td colspan="2" align="left" style="font-size:9pt ;border-top: 1px solid black; border-bottom: hidden;">
 </td>
 </tr>
 </table>
@@ -188,7 +187,6 @@ percentage of each soil type within each sub-basin. Table 3-2 summarizes
 the Horton's infiltration parameters utilized in the analysis.
 
 ###### Table 3-2: 1-hr Rainfall Depth
-
 <table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
 <tr>
 <td colspan=" 1 " align="center" style="font-weight: bold;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden; border-left: 0px solid black;">
@@ -280,7 +278,7 @@ D
 </td>
 </tr>
 <tr>
-<td colspan="6" align="left" style="font-size:9pt ;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden;">
+<td colspan="6" align="left" style="font-size:9pt ;border-top: 1px solid black; border-bottom: hidden;">
 </td>
 </tr>
 </table>
@@ -302,8 +300,7 @@ due to physical differences in input assumptions (imperviousness, HSGs,
 etc.).
 
 ###### Table 3-3: CUHP Output, 100-Year
-
-<table align="center" style="border-collapse: collapse; caption-side:top; font-size:9pt;">
+<table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
 <tr>
 <th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
 Subbasin
@@ -428,16 +425,16 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 2.3
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-130
+59
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.95
+2.55
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-130
+59
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.95
+2.55
 </td>
 </tr>
 <tr>
@@ -445,16 +442,16 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 2.4
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-109
+116
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-2.57
+2.61
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-109
+116
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-2.57
+2.61
 </td>
 </tr>
 <tr>
@@ -476,257 +473,359 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 </tr>
 <tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-3.1
+2.6
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-142
+54
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.83
+1.29
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-167
+54
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+1.29
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+3.1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+142
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.83
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+167
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
 2.15
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 3.2
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-111
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+92
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-2.55
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+2.49
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-111
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+92
 </td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-2.55
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+2.49
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 3.3
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-114
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+21
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-2.16
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+3.68
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-114
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+21
 </td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-2.16
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+3.68
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 3.4
 </td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+52
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+3.05
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+52
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+3.05
+</td>
+</tr>
+<tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-51
+3.5
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-3.04
+32
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-51
+1.64
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+32
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-3.04
+1.64
 </td>
 </tr>
 <tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-4.1
+3.6
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
+20
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+1.34
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+20
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+1.34
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+3.7
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+12
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+4.55
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+12
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+4.55
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+3.8
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+31
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+2.18
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+31
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+2.18
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+4.1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 102
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 2.66
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 128
 </td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-3.33
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+3.32
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 4.1
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 183
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 1.38
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 183
 </td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
 1.38
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 4.2
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 113
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.68
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.69
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 114
 </td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
 1.70
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 4.3
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-387
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+386
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 1.27
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-387
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.27
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-4.4
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-128
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.33
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-128
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1.33
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-4.5
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-117
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.52
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-117
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.52
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-4.6
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-526
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.57
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-526
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1.57
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-4.7
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-70
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.47
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-70
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.47
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-4.8
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-227
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.49
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-227
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1.49
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-4.9
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-575
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.94
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-575
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.94
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-5.1
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-375
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-2.32
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
 386
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-2.39
+1.27
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+4.4
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+128
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.32
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+128
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.32
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+4.5
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+117
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+1.52
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+117
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+1.52
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+4.6
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+526
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.57
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+526
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.57
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+4.7
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+70
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+1.47
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+70
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+1.47
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+4.8
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+227
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.49
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+227
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.49
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+4.9
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+575
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+1.94
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+575
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+1.94
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+5.1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+171
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+2.19
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+208
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+2.67
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+5.2
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+194
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+2.33
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+194
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+2.33
 </td>
 </tr>
 <tr>
@@ -734,16 +833,16 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 6.1
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-367
+387
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.62
+1.64
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-373
+393
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.65
+1.67
 </td>
 </tr>
 <tr>
@@ -887,16 +986,50 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 7.1
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-531
+25
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-2.52
+0.97
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-599
+28
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-2.84
+1.09
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+7.1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+161
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+2.55
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+161
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+2.55
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+7.1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+199
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+2.86
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+234
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+3.37
 </td>
 </tr>
 <tr>
@@ -904,16 +1037,16 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 7.2
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-65
+70
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.92
+1.94
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-65
+70
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.92
+1.94
 </td>
 </tr>
 <tr>
@@ -921,16 +1054,16 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 7.3
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-73
+50
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-3.35
+3.29
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-73
+50
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-3.35
+3.29
 </td>
 </tr>
 <tr>
@@ -938,13 +1071,13 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 7.4
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-68
+69
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 2.37
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-68
+69
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
 2.37
@@ -955,16 +1088,16 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 7.5
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-33
+26
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.43
+1.16
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-33
+26
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1.43
+1.16
 </td>
 </tr>
 <tr>
@@ -989,16 +1122,16 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 7.7
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-360
+359
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.87
+1.86
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-360
+359
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1.87
+1.86
 </td>
 </tr>
 <tr>
@@ -1006,71 +1139,88 @@ Future Conditions Unit Rate of Runoff (cfs/ac)
 7.8
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-143
+144
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.96
+1.97
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 145
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.98
+1.99
 </td>
 </tr>
 <tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
+7.9
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+24
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+3.66
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+24
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+3.66
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 8.1
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-313
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.49
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-313
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1.49
-</td>
-</tr>
-<tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-8.2
+315
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-93
+1.50
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1.13
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-93
+315
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.50
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+8.2
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+93
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+1.13
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+93
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
 1.13
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 8.3
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-75
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+136
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1.07
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.32
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-75
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+136
 </td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1.07
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1.32
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-size:7pt ;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden;">
+<td colspan="5" align="left" style="font-size:7pt ;border-top: 1px solid black; border-bottom: hidden;">
 </td>
 </tr>
 </table>
@@ -1156,7 +1306,6 @@ SWMM model for both conditions are presented in Table 3-4. SWMM output
 for other recurrence intervals is provided in *Appendix J.*
 
 ###### Table 3-4: SWMM Output, 100-Year
-
 <table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
 <tr>
 <th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
@@ -1186,7 +1335,7 @@ StoneCanyonSt.VrainOUT
 St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;background-color: #E5E4E2;">
-2357
+2356
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;background-color: #E5E4E2;">
 2361
@@ -1203,10 +1352,10 @@ EagleCanyonN.St.VrainOUT
 North St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1362
+1716
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-1362
+1716
 </td>
 </tr>
 <tr>
@@ -1220,10 +1369,10 @@ RedHillGulchS.St.VrainOUT
 South St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-2357
+2198
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-2361
+2203
 </td>
 </tr>
 <tr>
@@ -1237,10 +1386,10 @@ Sub2.4N.St.VrainOUT
 North St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-695
+682
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-695
+682
 </td>
 </tr>
 <tr>
@@ -1254,10 +1403,10 @@ Sub7.2St.VrainOUT
 St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-577
+581
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-610
+611
 </td>
 </tr>
 <tr>
@@ -1271,10 +1420,10 @@ Sub7.3St.VrainOUT
 St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-73
+50
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-73
+50
 </td>
 </tr>
 <tr>
@@ -1288,10 +1437,10 @@ Sub7.7N.St.VrainOUT
 North St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-360
+359
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-360
+359
 </td>
 </tr>
 <tr>
@@ -1305,7 +1454,7 @@ Sub7.8S.St.VrainOUT
 South St.Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-143
+144
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
 145
@@ -1322,10 +1471,10 @@ Sub5.1N.St.VrainOUT
 North St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-375
+171
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-386
+208
 </td>
 </tr>
 <tr>
@@ -1339,10 +1488,10 @@ Sub7.5N.St.VrainOUT
 North St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-33
+26
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-33
+26
 </td>
 </tr>
 <tr>
@@ -1356,75 +1505,57 @@ Sub8.2St.VrainOUT
 St. Vrain Creek
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-93
+407
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-93
+407
 </td>
 </tr>
 <tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-Sub8.3St.VrainOUT
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-8.3
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-St. Vrain Creek
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-75
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
-75
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 Sub7.1St.VrainOUT
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 7.1
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
 St. Vrain Creek
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-531
-</td>
-<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
-599
-</td>
-</tr>
-<tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-Sub7.6N.St.VrainOUT
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-7.6
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-North St. Vrain Creek
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-134
+378
 </td>
 <td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;">
+414
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Sub7.6N.St.VrainOUT
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+7.6
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+North St. Vrain Creek
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+134
+</td>
+<td align="center" style="border-left: 0px solid black;border-right:0px solid black;border-top: hidden;background-color: #E5E4E2;">
 134
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-size:9pt ;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden;">
+<td colspan="5" align="left" style="font-size:9pt ;border-top: 1px solid black; border-bottom: hidden;">
 </td>
 </tr>
 </table>
 
-[![timeseries](assets/img/timeseries-1.png){: .center-img }](assets/img/timeseries-1.png){: target="_blank" } 
-*Figure 3-1: SWMM Hydrographs*
+[![picture](assets/img/timeseries-1.png){: .center-img }](assets/img/timeseries-1.png){: target="_blank" } 
+*SWMM Hydrographs*
 {: .caption }
 
 ###### Table 3-5: SWMM Output, Outfalls
-
 <table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
 <tr>
 <th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
@@ -1450,7 +1581,7 @@ Design Flow Location
 </th>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Eagle Canyon
 </td>
 </tr>
@@ -1477,7 +1608,7 @@ Outfall into North St. Vrain Creek
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 North St. Vrain
 </td>
 </tr>
@@ -1494,13 +1625,13 @@ Subwatershed 7.7
 54
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-89
+88
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-266
+265
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-360
+359
 </td>
 </tr>
 <tr>
@@ -1513,13 +1644,13 @@ Subwatershed 7.6
 21
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-31
+32
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 44
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-103
+104
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 134
@@ -1535,20 +1666,20 @@ Subwatershed 7.5
 2
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-4
+3
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-6
+5
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-23
+19
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-33
+26
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Ewald Avenue
 </td>
 </tr>
@@ -1559,165 +1690,209 @@ Ewald Avenue
 Subwatershed 5.1
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-38
+27
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+41
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 61
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-97
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-287
+157
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-386
+208
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Subwatershed 5.2
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+19
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+30
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+50
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+145
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+194
+</td>
+</tr>
+<tr>
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 South St. Vrain
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 Subwatershed 7.8
 </td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+13
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+20
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+36
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+108
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+145
+</td>
+</tr>
+<tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-12
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Subwatershed 8.1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+29
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+46
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+79
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+232
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+315
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Subwatershed 8.2
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+6
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+11
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+17
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+66
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+93
+</td>
+</tr>
+<tr>
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
+Steamboat Valley
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Vasquez Road
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
 20
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-35
+33
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-107
+60
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+221
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-145
+306
 </td>
 </tr>
 <tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-Subwatershed 8.1
+Old Railroad Embankment
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-29
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-46
+48
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 78
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-231
+126
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+418
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-313
+573
 </td>
 </tr>
 <tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-Subwatershed 8.2
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-6
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-11
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-17
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-66
-</td>
-<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-93
-</td>
-</tr>
-<tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
-Steamboat Valley
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-Vasquez Road
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-20
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-33
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-60
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-221
-</td>
-<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-306
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-Old Railroad Embankment
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-49
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-80
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-130
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-430
-</td>
-<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-591
-</td>
-</tr>
-<tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-</td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 Main Street
 </td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+69
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+108
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+165
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+503
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+682
+</td>
+</tr>
+<tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-68
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-107
+Outfall into North St. Vrain Creek
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+69
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+108
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 165
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-510
+503
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-693
+682
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Third Avenue
 </td>
 </tr>
@@ -1750,19 +1925,19 @@ East of Cemetary
 Stickney Avenue
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-14
+12
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-21
+18
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-32
+27
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-83
+70
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-111
+92
 </td>
 </tr>
 <tr>
@@ -1772,19 +1947,19 @@ Stickney Avenue
 Stickney Ave. and 3rd Ave.
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-32
+30
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-50
+47
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-75
+70
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-208
+194
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-276
+258
 </td>
 </tr>
 <tr>
@@ -1794,50 +1969,187 @@ Stickney Ave. and 3rd Ave.
 Main Street
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-52
+50
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-78
+75
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-113
+108
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-286
+272
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-376
+358
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Outfall into North St. Vrain Creek
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+83
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+125
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+179
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+461
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+611
+</td>
+</tr>
+<tr>
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
+Eastern Lyons
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Second Avenue at Stickney Alley
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+3
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+5
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+8
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+23
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+31
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+First Avenue
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+2
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+5
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+23
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+32
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+Kelling Drive
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+2
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+4
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+14
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+20
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+Main Street
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+9
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+14
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+23
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+73
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+100
+</td>
+</tr>
+<tr>
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 South 2nd Avenue
 </td>
 </tr>
 <tr>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-Subwatershed 7.3
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+West of Second Avenue
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+10
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 15
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-22
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+19
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-29
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+39
 </td>
-<td align="center" style="border-left: 0px solid black;border-top: hidden;">
-58
-</td>
-<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-73
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+50
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+East of Second Avenue
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+5
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+8
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+10
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+19
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+24
+</td>
+</tr>
+<tr>
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Red Hill Gulch
 </td>
 </tr>
@@ -1870,19 +2182,19 @@ Upstream end of Red Gulch Road
 South Ledge Ditch
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-79
+80
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-146
+148
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-338
+341
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-1436
+1447
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-2061
+2078
 </td>
 </tr>
 <tr>
@@ -1892,23 +2204,23 @@ South Ledge Ditch
 Bohn Park
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-83
+86
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-154
+160
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-349
+361
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1483
+1533
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-2132
+2204
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Lyons Valley
 </td>
 </tr>
@@ -1916,26 +2228,70 @@ Lyons Valley
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-Subwatershed 7.1
+West of McConnell Dr
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-66
+21
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-104
+32
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-161
+48
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-447
+122
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;">
-599
+161
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+East of McConnell Dr
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+35
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+52
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+75
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+178
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
+234
+</td>
+</tr>
+<tr>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+East of Lyons Valley Park
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+1
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+2
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+4
+</td>
+<td align="center" style="border-left: 0px solid black;border-top: hidden;">
+20
+</td>
+<td align="NA" style="border-left: 0px solid black;border-top: hidden;">
+28
+</td>
+</tr>
+<tr>
+<td colspan="7" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:NApx solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Stone Canyon
 </td>
 </tr>
@@ -1943,7 +2299,7 @@ Stone Canyon
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-Stone Canyon Road
+Stone Canyon Subdivision
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 129
@@ -1955,7 +2311,7 @@ Stone Canyon Road
 432
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-1567
+1566
 </td>
 <td align="NA" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 2183
@@ -1972,7 +2328,7 @@ Ute Highway
 146
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
-247
+246
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;">
 474
@@ -1985,13 +2341,12 @@ Ute Highway
 </td>
 </tr>
 <tr>
-<td colspan="7" align="left" style="font-size:9pt ;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden;">
+<td colspan="7" align="left" style="font-size:9pt ;border-top: 1px solid black; border-bottom: hidden;">
 </td>
 </tr>
 </table>
 
 ###### Table 3-6: SWMM Output, Existing Structures
-
 <table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
 <tr>
 <th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
@@ -2011,7 +2366,7 @@ Approximate Return Period
 </th>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Steamboat Valley
 </td>
 </tr>
@@ -2160,7 +2515,7 @@ Seward St. Alley
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Third Avenue
 </td>
 </tr>
@@ -2213,7 +2568,7 @@ Park St. to N St. Vrain Creek
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 South 2nd Avenue
 </td>
 </tr>
@@ -2266,7 +2621,7 @@ South of Main St.
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Ewald Avenue
 </td>
 </tr>
@@ -2287,7 +2642,7 @@ Park St.
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Lyons Valley
 </td>
 </tr>
@@ -2356,7 +2711,7 @@ McConnel Dr.: McConnel Dr.
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Eastern Lyons
 </td>
 </tr>
@@ -2377,7 +2732,7 @@ Eastern Lyons
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 2px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
+<td colspan="5" align="left" style="font-weight: bold; border-left: 0px solid black; border-right:0px solid black;border-bottom: 1px solid black;border-top: 1px solid black;">
 Stone Canyon
 </td>
 </tr>
@@ -2399,7 +2754,7 @@ Stone Canyon Rd.: Stone Canyon Rd.
 </tr>
 <tr>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
-
+.
 </td>
 <td align="center" style="border-left: 0px solid black;border-top: hidden;background-color: #E5E4E2;">
 Ute Highway: Stone Canyon Road
@@ -2415,7 +2770,7 @@ Ute Highway: Stone Canyon Road
 </td>
 </tr>
 <tr>
-<td colspan="5" align="left" style="font-size:9pt ;border-top: 2px solid rgba(0,0,0,.87); border-bottom: hidden;">
+<td colspan="5" align="left" style="font-size:9pt ;border-top: 1px solid black; border-bottom: hidden;">
 </td>
 </tr>
 </table>
