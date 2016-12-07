@@ -38,7 +38,12 @@ extra_css:
 
 # Options
 extra:
-  pdfurl: 'https://iconengineering.github.io/lyons-stormwater-masterplan/assets/LyonsDraftReport.pdf'
+  pdfurl: 'assets/LyonsDraftReport.pdf'
+  links:
+    - title: Interactive Map
+      url: map
+    - title: Comments
+      url: comments
   logo: assets/img/Lyons.png
   author:
     github: iconengineering
