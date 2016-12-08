@@ -22,6 +22,21 @@ function smoothTwo(layer, property, reset, layer2, property2, reset2) {
         }
     };
 
+  function smoothThree(layer, property, reset, layer2, property2, reset2, layer3, property3, reset3) {
+
+          var opacity = map.getPaintProperty(layer, property);
+
+          if (opacity === reset) {
+              map.setPaintProperty(layer,property, 0);
+              map.setPaintProperty(layer2,property2, 0);
+              map.setPaintProperty(layer3,property3, 0);
+          } else {
+              map.setPaintProperty(layer, property, reset);
+              map.setPaintProperty(layer2, property2, reset2);
+              map.setPaintProperty(layer3, property3, reset3);
+          }
+      };
+
 function toggleLayer(layer) {
 
         var visibility = map.getLayoutProperty(layer, 'visibility');

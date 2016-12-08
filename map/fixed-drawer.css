@@ -2,6 +2,14 @@ html, body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+.link {
+color: #4DB6AC;
+transition: all 0.2s linear;
+}
+.link:hover, .link:focus {
+color: #64FFDA;
+}
+
 .mdl-layout__drawer {
   width: 320px !important;
 }
@@ -23,7 +31,7 @@ html, body {
   margin-left: 0 !important;
 }
 
-[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after, [type="checkbox"].filled-in:checked+label:after {
   background-color: #1de9b6;
   border: 2px solid #1de9b6;
 }
@@ -37,6 +45,10 @@ html, body {
   color: rgba(0,0,0,.87);
   font-size: 14px;
   letter-spacing: .04em;
+}
+
+.indent {
+  padding-left: 50px !important;
 }
 
 [type="checkbox"]+label.multiline {
@@ -76,4 +88,13 @@ html, body {
 
 .collapsible-body p:last-child {
   padding: 0;
+}
+
+.popup-content {
+  max-width: 300px;
+}
+
+.note {
+  font-size: small;
+  line-height: 18px;
 }

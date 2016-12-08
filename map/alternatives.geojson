@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "A",
+        "Description": "Red Hill Gulch Overflow Channel East - an in-town option to control surface flows before they impact residential structures, significant impacts on Town Park features."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2664792537689,
+          40.21736461566236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "B",
+        "Description": "Red Hill Gulch Overflow Channel West - Acquisition of land outside of Town limits captures surface flows without impacting park lands, but costs increase for land and drop structures."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26925802230835,
+          40.21686486868198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "C",
+        "Description": "Red Hill Gulch Cut-Off Channel - An upstream cut off outside of Town limits reduces risk to Town public and private land, but requires detailed design and coordination with County, irrigation companies, and private residents."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.272616147995,
+          40.211859002953325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "D",
+        "Description": "Steamboat Drainage Culvert Replacement - an overdeveloped natural drainageway improvement will require extensive private property acquisition and impact multiple historic resources."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2705293893814,
+          40.228698051226914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "E",
+        "Description": "Steamboat Drainage Interceptors - to maximize capacity of existing Steamboat stone culverts, surface flows are intercepted and routed away from the undersized natural drainageway to be conveyed in the gutter and streets."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.27138233184814,
+          40.22927962199738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "F",
+        "Description": "Third Avenue Inlets and Storm Drain - an expensive but effective storm sewer system captures and conveys water away from private property and out of public ROW."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26778817176819,
+          40.22738745090257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "G",
+        "Description": "Lower Third Avenue Inlet - Rock excavation and storm sewer cost can be reduced if only lower section of 3rd Avenue storm sewer is improved."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26749312877655,
+          40.22378726513562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "H",
+        "Description": "Third Avenue Drainage Interceptors - an improvement to surface conveyance moves the flood risk away from private structures and into public ROW but only reduces the damages from large storm events."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26755213737488,
+          40.22528224605093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "I",
+        "Description": "Eastern Lyons Second Avenue Gutter Interceptor - another hillside drainage solution that improves street capacity to move storm water runoff south in public ROW and away from private property."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2654331922531,
+          40.22552799318088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "J",
+        "Description": "Eastern Lyons Second Avenue Inlets and Storm Sewer - to reduce flood risk more than gutter improvements a system of storm sewer inlets and pipes can be installed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2654331922531,
+          40.22463510767707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "L",
+        "Description": "Lyons Valley South Ditch Improvements - surface runoff drains through the subdivision to the river, but a diversion ditch on the southern perimeter of the development can reduce risk."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.25803565979004,
+          40.212530842750525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "M",
+        "Description": "Lyons Valley McConnel Drive Culvert - nuisance and storm flows from impervious surfaces occupy and overwhelm the west flow line, inlets and storm sewer can improve conveyance and reduce surface flood risks."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26370048522948,
+          40.215308256107434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "N",
+        "Description": "Ewald Avenue Corona Hill Diversion Ditch - intercepting hillside runoff above the private property requires costly open space acquisition and challenging hydraulics moving water downhill."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.27384996414185,
+          40.22091599008272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "O",
+        "Description": "Ewald Avenue Corona Hill Street Inlets - an alternative to uphill diversion is in-street capture and conveyance to a pond or outlet to the river."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2718248963356,
+          40.22047566253327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "P",
+        "Description": "2nd Avenue Kelling Drive Improvements - private property drainage is complicated by landscaping and undefined flow paths and may require assistance coordinating individual efforts to ensure compliance with Town criteria and drainage law."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26470363140106,
+          40.22312168082655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "Q",
+        "Description": "Stone Canyon Outfall Improvements - larger upstream culverts discharge into smaller downstream conveyance elements constrained by roads and topography, an expensive and complicated upsizing would reduce flood risk in this area."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.25921583175659,
+          40.2171536573456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "K",
+        "Description": "Forthcoming."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26078224182129,
+          40.21588994183297
+        ]
+      }
+    }
+  ]
+}
