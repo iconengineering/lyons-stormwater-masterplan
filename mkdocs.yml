@@ -2,7 +2,7 @@
 site_name: Lyons Stormwater Masterplan
 site_description: Authored by ICON Engineering for the Town of Lyons
 site_author: ICON Engineering
-site_url: http://iconengineering.github.io/lyons-stormwater-masterplan/
+site_url: https://iconengineering.github.io/lyons-stormwater-masterplan/
 site_favicon: assets/img/favicon.ico
 google_analytics: ['UA-66511604-1', 'iconengineering.github.io']
 

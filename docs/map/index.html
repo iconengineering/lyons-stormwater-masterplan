@@ -78,7 +78,7 @@
                 <label for="subbasins" class="valign">Sub-basins</label>
               </p>
               <p class="indent">
-                <input name="subbasinLabels" type="checkbox" id="subbasinLabels" class="layer-on filled-in small-checkbox" onclick="toggleTwo('subbasinLabels','subbasinLabels2')" checked/>
+                <input name="subbasinLabels" type="checkbox" id="subbasinLabels" class="layer-on filled-in small-checkbox" onclick="toggleLayer('subbasinLabels')" checked/>
                 <label for="subbasinLabels" class="valign">Labels</label>
               </p>
               <p>
@@ -86,7 +86,7 @@
                 <label for="conduits" class="valign">Conduits</label>
               </p>
               <p>
-                <input name="junctions" type="checkbox" id="junctions" class="layer-off" onclick="smoothTwo('junctions','circle-opacity',1,'junctionLabels','text-opacity',1)"/>
+                <input name="junctions" type="checkbox" id="junctions" class="layer-off" onclick="toggleTwo('junctions','junctionLabels')"/>
                 <label for="junctions" class="valign">Junctions</label>
               </p>
             </div>
@@ -170,6 +170,28 @@
               <p>
                 <input name="alternatives" type="checkbox" id="alternatives" class="layer-off" onclick="toggleTwo('alternatives','altAlignments')"/>
                 <label for="alternatives" class="valign">Alternatives</label>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Future Planning</div>
+            <div class="collapsible-body white">
+              <div class="row">
+                <p class="grey-text text-darken-2 note">
+                  Future planning note.
+                </p>
+              </div>
+              <p>
+                <input name="planning" type="checkbox" id="planning" class="layer-off" onclick="smoothTwo('planningAreas','line-opacity',1,'planningFill','fill-opacity',.75)"/>
+                <label for="planning" class="valign">Future Planning Areas</label>
+              </p>
+              <p>
+                <input name="eastern" type="checkbox" id="eastern" class="layer-off" onclick="smoothTwo('easternLines','line-opacity',1,'easternLabels','text-opacity',1)"/>
+                <label for="eastern" class="valign">Eastern Corridor Basins</label>
+              </p>
+              <p>
+                <input name="apple" type="checkbox" id="apple" class="layer-off" onclick="smoothTwo('appleLines','line-opacity',1,'appleLabels','text-opacity',1)"/>
+                <label for="apple" class="valign">Apple Valley Basins</label>
               </p>
             </div>
           </li>
