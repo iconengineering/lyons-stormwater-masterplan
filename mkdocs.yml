@@ -7,8 +7,8 @@ site_favicon: assets/img/favicon.ico
 google_analytics: ['UA-66511604-1', 'iconengineering.github.io']
 
 # Repository
-repo_name: GitHub
-repo_url: https://github.com/iconengineering/lyons-stormwater-masterplan
+# repo_name: GitHub
+# repo_url: https://github.com/iconengineering/lyons-stormwater-masterplan
 
 
 # Copyright
@@ -45,8 +45,6 @@ extra:
     - title: Comments
       url: comments
   logo: assets/img/Lyons.png
-  author:
-    github: iconengineering
   palette:
     primary: 'grey'
     accent: 'teal'

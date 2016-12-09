@@ -6,11 +6,9 @@
 
 An Alternative Analysis was completed to develop flood mitigation
 solutions for the problem areas identified in the previous section.
-Goals for mitigation focused a minimum condition to provide storm
-drainage capacity meeting currently defined drainage criteria for the
-Town of Lyons and solutions to reducing flooding on insurable
-structures. Consideration was also given to reducing infrastructure
-sizing and costs by incorporating detention.
+Goals for mitigation focused on solutions to reducing flooding on
+insurable structures. Consideration was also given to reducing
+infrastructure sizing and costs by incorporating detention.
 
 Alternatives were considered first for open channel and then for piped
 systems. Open channels are more cost effective, provide additional
@@ -42,11 +40,12 @@ coordination.
 6.2 Criteria and Constraints
 ----------------------------
 
-As noted above, goals for the baseline alternative plan was to provide
-storm drainage capacity to meeting currently defined drainage criteria
-set forth in the Town of Lyons Storm Drainage System Criteria. The minor
-storm frequency for the Town of Lyons is the 2-yr design storm with the
-100-yr design storm classified as the major storm frequency.
+As noted above, goals for the baseline alternative plan was to provide storm
+drainage capacity to meeting currently defined drainage criteria set forth in
+the Town of Lyons Storm Drainage System Criteria. The minor storm frequency
+for the Town of Lyons is the 2-yr design storm. The major storm frequency for
+the Town of Lyons is classified as the 100-yr design storm frequency. The
+only inlet type allowed on streets is CDOT Type R inlets.
 
 6.3 Evaluation of Detention
 ---------------------------
@@ -112,26 +111,18 @@ creates a reasonable detention volume.
 6.4 Alternative Categories
 --------------------------
 
-For each outfall system, multiple alternatives were evaluated in the
-initial screening process including:
+For the purpose of this study, alternatives were generally developed to
+mitigate the flooding hazards identified in Section 5.0. Specific details
+related to individual alternatives follow in subsequent report sections.
 
--   Improve storm drain infrastructure to convey minor storm runoff
-
--   Improve storm drain infrastructure to the initial storm, and provide
-    detention facilities to reduce infrastructure costs where applicable
-
--   Improve storm drain infrastructure to the major storm runoff.
-
--   Improve storm drain infrastructure to the major storm, and provide
-    detention facilities to reduce infrastructure costs where applicable
 
 6.5 Alternative Hydraulics
 --------------------------
 
-Each alternative was modeled using SWMM to determine the pipe sizes
-necessary to meet the desired alternative criteria. The reduction in
-flooding potential throughout the basin was evaluated for the minor and
-major design storm frequencies using FLO-2D.
+Alternatives were modeled using EPA SWMM to determine the size of the
+structures necessary to convey the design flow. The reduction in flooding
+potential throughout the basin was evaluated for the minor and major design
+storm frequencies using FLO-2D.
 
 6.6 Alternative Costs
 ---------------------
@@ -142,10 +133,13 @@ values were adjusted to present value using the Colorado Construction
 Cost Index 2016 Second Quarter Report. A rolling four-quarter inflation
 rate of 1.2673 was used to adjust unit costs.
 
-Operation and Maintenance was also included within the UD MP Cost
-worksheet. Manhole and inlet maintenance was assumed to occur once every
-five years. Maintenance on detention basins and water quality facilities
-was assumed to occur every other year.
+Operation and Maintenance was also included within the UD MP Cost worksheet.
+Maintenance to remove sediment and debris and conduct structural repairs on
+storm drain manholes and inlets was assumed to occur one every year.
+Maintenance to remove tree and weeds and sediment and debris in open channel
+alternatives was also assumed to occur once every year. Costs for maintenance
+of the hydraulic drops for the Red Hill Gulch West Channel was assumed to
+occur once a year.
 
 Inlet quantities were calculated assuming an inlet interception capacity
 of 1 cfs / foot of inlet.
@@ -174,17 +168,18 @@ Contract Administration / Construction Management, and Contingency.
 before diverting runoff into Lyons Valley Park Subdivision*
 {: .caption }
 
-Any flow that exceeds the capacity of the South Ledge Ditch poses a
-flooding hazard to Lyons Valley Subdivision and Bohn Park. This
-uncontrolled spill flow risks the structural integrity of the ditch and
-poses a hazard to homes along the west side of Lyons Valley Park. The
-Red Hill Gulch Overflow Channel would intercept flows along the east
-side of Bohn Park preventing these flows from diverting into the Lyons
-Valley Park Subdivision. The grading associated with the overflow
-channel would change the surface conditions of the east side of the park
-but still allow for parking and multi-purpose uses. The multiple uses of
-this eastern side of the park require the channel to be wider and
-flatter that typical conveyance channels in order to maintain the
+A diversion channel west of Lyons Valley Park Subdivision is proposed to
+intercept overflow from Red Hill Gulch before the discharge damages property.
+Any flow exceeding the capacity of the South Ledge Ditch continues north
+spilling into Bohn Park and Lyons Valley Park Subdivision. This uncontrolled
+spill flow risks the structural integrity of the ditch and poses a hazard to
+homes along the west side of Lyons Valley Park. The Red Hill Gulch Overflow
+Channel East would intercept flows along the east side of Bohn Park preventing
+these flows from diverting into the Lyons Valley Park Subdivision. The grading
+associated with the overflow channel would change the surface conditions of
+the east side of the park but still allow for parking and multi-purpose uses.
+The multiple uses of this eastern side of the park require the channel to be
+wider and flatter that typical conveyance channels in order to maintain the
 function of the space for parking and exhibitions.
 
 In general, this option intercepts and conveys large storm events from
@@ -249,48 +244,36 @@ drainage away from the roadway.
 
 #### D - Steamboat Drainage Culvert Replacement
 
-To reduce flooding within the Steamboat Valley Watershed, the existing
-historic box culvert could be upsized to convey the design discharge.
-Upsizing the existing historic box culvert along the current alignment
-between 4th and 5th Avenue would encourage the runoff from the watershed
-to follow the historic drainage path. However, implementing this
-alternative would require extensive easements as the historic culvert
-runs through the downtown area underneath development on private
-properties.
+The historic flowpath of Steamboat Valley Watershed conveys flow south
+between Fourth and Fifth Avenue through private property. The existing
+confined channel and culvert roadway crossings could be replaced with a
+reinforced concrete box culvert conveying the entire 100-year design flow.
+The proposed culvert replacement along the existing alignment uses the natural
+topography to convey the runoff to the new culvert. However, implementing
+this alternative would require extensive easements as the historic culvert
+runs through the downtown area underneath development on private properties.
 
 #### E - Steamboat Drainage Interceptors
 
-Downstream of the private railroad embankment an interceptor system
-could be installed to collect flow at the McCall Alley roadway crossing.
-Flows in excess of the existing channel and roadway crossings would be
-intercepted and conveyed west to 5th Avenue. The storm drain system
-would continue south to North St. Vrain Creek. Intercepting the flow at
-McCall Alley would alleviate the flooding on properties downstream by
-limiting the flow to the existing infrastructure capacity.
-
-For further protection, an additional lateral could be installed up 5th
-Avenue to the drainage roadway crossing at Vasquez Road. The lateral up
-to Vasquez Road would intercept flows upstream of the private detention
-area, reducing the risk on downstream properties if the embankment was
-to fail.
-
-A storm drain system could be installed in 4th Avenue in the lower
-portions of the Steamboat Valley Watershed to intercept local runoff and
-convey the discharge to the North St. Vrain Creek. This additional storm
-drain system would alleviate some of the existing flooding hazard on
-properties in the downtown area.
+The Steamboat Drainage Interceptor Alternative proposes to intercept flow just
+downstream of the private railroad embankment at McCalley Alley. Flows in
+excess of the existing channel and roadway crossing capacity would be
+intercepted and conveyed west to Fifth Avenue. The storm drain system would
+continue south where the system would outfall into North St. Vrain Creek.
+This alternative proposes a lateral in Fourth Avenue from Stickney Avenue to
+North St. Vrain Creek to intercept local runoff in the lower portions of the
+Steamboat Valley Watershed.
 
 #### F - Third Avenue Inlets and Storm Drain
 
-To mitigate flood hazards associated with the Third Avenue Watershed, a
-storm drain is proposed from the upper reaches from Third Avenue east of
-the cemetery downstream to the North St. Vrain Creek. A lateral along
-Stickney Avenue would intercept the flows from the undeveloped northeast
-portion of the watershed that drains southwest into the downtown area.
-Continuing the storm drain system south of Main Street would alleviate
-some of the burden of the South 2nd Avenue Watershed. Any flows in
-excess of the existing storm drain in the Third Avenue Watershed
-currently spill in the South 2nd Avenue Watershed.
+To mitigate flood hazards associated with the Third Avenue Watershed, a storm
+drain is proposed along Third Avenue from Cemetry Circle to North St. Vrain
+Creek. A lateral along Stickney Avenue is proposed to intercept flow from the
+east as it enters the residential area. Continuing the storm drain system
+south of Main Street would mitigate some of the flooding hazards within the
+South Second Avenue Watershed. Any flows in excess of the existing storm
+drain in the Third Avenue Watershed currently spill in the South 2nd Avenue
+Watershed impacting properties.
 
 However, it is important to note that excavation in the northern end of
 the Third Avenue basin is likely to encounter rock and other earthwork
@@ -349,18 +332,21 @@ Avenue Watershed.
 
 #### J - Eastern Lyons - Second Avenue Inlets and Storm Sewer
 
-To ensure no runoff diverts from the Eastern Lyons Watershed, inlets and
-a storm drain pipe can be installed along 2nd Avenue. The storm drain
-inlets and pipe in combination with curb and gutter would intercept the
-flow and convey the flow south to Main Street.
+To ensure no runoff diverts from the Eastern Lyons Watershed, inlets and a
+storm drain pipe can be installed along 2nd Avenue. The storm drain inlets and
+pipe in combination with curb and gutter would intercept the flow and convey
+the flow south to Main Street. South of Main Street the storm drain would
+convey runoff to the Second Avenue and Park Street intersection before turning
+east to the outfall location into the St. Vrain Creek.
 
 #### K - Lyons Valley Inlet Improvements
 
-Runoff from the upper portions of the subwatershed sheet flows in a
-general northeast direction through the subdivision to St. Vrain Creek.
-The storm drain infrastructure installed with the development of Lyons
-Valley Park Subdivision is a minor drainage system and lacks capacity to
-convey major storm events.
+Runoff from the upper portions of the subwatershed sheet flows in a general
+northeast direction through the subdivision to St. Vrain Creek. The storm
+drain infrastructure installed with the development of Lyons Valley Park
+Subdivision is a minor drainage system and lacks capacity to convey major
+storm events. This alternative proposes to increases the storm drain along the
+existing alignment to convey the design flow for the 100-year storm.
 
 #### L - Lyons Valley South Ditch Improvements
 
@@ -368,11 +354,6 @@ The South Ledge Ditch located south of Lyons Valley Park Subdivision
 intercepts runoff from the subwatershed. Formalizing the ditch to convey
 stormwater east towards St. Vrain Creek would reduce the tributary area
 contributing to the flooding hazards of Lyons Valley Park Subdivision.
-If comingling of stormwater and irrigation flows is not desired an
-overflow conveyance system intercepting the runoff from the upper
-portions of the watershed could be built just downstream of South Ledge
-Ditch. This conveyance system could be included as Lyons Valley Park
-becomes fully developed.
 
 This alternative should be developed in coordination with the future
 development of Lyons Valley. A drainage feature around the south end of
@@ -421,15 +402,13 @@ construction of any diversion channel difficult.
 
 #### O - Ewald Ave - Corona Hill Street Inlets
 
-An alternative to intercepting flows upstream of the residential
-development is formalizing street conveyance and installing storm drain
-infrastructure along Prospect Road. The storm drain infrastructure in
-combination with curb and gutter improvements would confine the runoff
-from Corona Hill to the street limiting the impact to private
-properties. Installing additional inlets and laterals along the Prospect
-Street storm drain alignment would encourage more water to be conveyed
-in the pipe as this system is currently limited by the two inlets near
-4th Avenue.
+An alternative to intercepting flows upstream of the residential development
+is formalizing street conveyance and installing storm drain infrastructure
+along Prospect Road. The storm drain infrastructure in combination with curb
+and gutter improvements would confine the runoff from Corona Hill to the
+street limiting the impact to private properties. The storm drain system would
+continue east along Prospect Road to the confluence area between North and
+South St. Vrain Creek
 
 #### P - 2<sup>nd</sup> Avenue – Kelling Drive Private Improvements
 
@@ -466,17 +445,17 @@ financing. Therefore, the town's assistance could come in the form of
 coordinating the private efforts to ensure a comprehensive solution is
 achieved.
 
-#### Q - 2<sup>nd</sup> Avenue – Kelling Drive Interceptor Curbs
+#### Q - Stone Canyon Outfall Improvements
 
-Similar to Steamboat and 3<sup>rd</sup> Avenue … not a full spectrum
-fix, but can make a difference in small storm runoff events.
+Downstream of Stone Canyon Road, private development has infringed on Stone
+Canyon Drainageway. The existing roadway crossing at Ute Highway lacks the
+capacity to convey the 100-year discharge without overtopping the roadway. A
+significant box culvert roadway crossing structure would be required to convey
+the 100-year discharge without overtopping.
 
-#### R - Stone Canyon Outfall Improvements
-
-An existing outfall under the highway is smaller than the outfall pipe
-upstream. Upsizing the outfall pipe to match the 13'x8' reinforced
-concrete box culvert would help convey stormwater flows under the
-highway with less upstream head on the system.
+[![picture](assets/img/Figure6-1.jpg){: .center-img }](assets/img/Figure6-1.jpg){: target="_blank" } 
+*Figure 6-1: Project Alternatives*
+{: .caption }
 
 ###### Table 6-1: Cost Summary
 <table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
@@ -509,10 +488,10 @@ Contingency
 Total Capital Cost
 </th>
 <th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-bottom: 1px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
-Annual O-M Cost
+Annual O&M Cost
 </th>
 <th <th align="center" style="font-weight: bold;border-left: 0px solid black;border-right:0px solid black;border-bottom: 1px solid rgba(0,0,0,.87);border-top: 2px solid rgba(0,0,0,.87);">
-50-Year O-M Cost
+50-Year O&M Cost
 </th>
 </tr>
 <tr>
