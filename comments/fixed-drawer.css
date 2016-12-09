@@ -2,6 +2,14 @@ html, body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+.link {
+color: #4DB6AC;
+transition: all 0.2s linear;
+}
+.link:hover, .link:focus {
+color: #64FFDA;
+}
+
 .mdl-layout__drawer {
   width: 320px !important;
 }

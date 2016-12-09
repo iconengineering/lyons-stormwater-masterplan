@@ -2,8 +2,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaWNvbmVuZyIsImEiOiJjaXBwc2V1ZnMwNGY3ZmptMzQ3Z
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/iconeng/civjrd2la004z2immqynhr4fd',
-    zoom: 14,
-    center: [-105.27, 40.22],
+    zoom: 12,
+    center: [-105.27, 40.215],
     hash: true,
     preserveDrawingBuffer: true
 });
@@ -34,6 +34,7 @@ $(document).ready(function() {
         map.setPaintProperty('100yrFill','fill-opacity', 0);
         map.setPaintProperty('120pctFill','fill-opacity', 0);
         map.setPaintProperty('watersheds','fill-opacity', 0);
+        map.setPaintProperty('planningFill','fill-opacity', 0);
         map.setPaintProperty('2yrLine','line-opacity', 0);
         map.setPaintProperty('5yrLine','line-opacity', 0);
         map.setPaintProperty('10yrLine','line-opacity', 0);
@@ -42,15 +43,19 @@ $(document).ready(function() {
         map.setPaintProperty('120pctLine','line-opacity', 0);
         map.setPaintProperty('subbasinLines','line-opacity', 0);
         map.setPaintProperty('conduits','line-opacity', 0);
+        map.setPaintProperty('appleLines','line-opacity', 0);
+        map.setPaintProperty('easternLines','line-opacity', 0);
+        map.setPaintProperty('planningAreas','line-opacity', 0);
         map.setLayoutProperty('altAlignments','visibility', 'none');
-        map.setPaintProperty('junctions','circle-opacity', 0);
+        map.setLayoutProperty('junctions','visibility', 'none');
         map.setPaintProperty('conduitArrows','icon-opacity', 0);
         map.setLayoutProperty('alternatives','visibility', 'none');
         map.setPaintProperty('watershedLabels','text-opacity', 0);
         map.setLayoutProperty('subbasinLabels','visibility', 'none');
-        map.setLayoutProperty('subbasinLabels2','visibility', 'none');
         map.setPaintProperty('conduitLabels','text-opacity', 0);
-        map.setPaintProperty('junctionLabels','text-opacity', 0);
+        map.setPaintProperty('appleLabels','text-opacity', 0);
+        map.setPaintProperty('easternLabels','text-opacity', 0);
+        map.setLayoutProperty('junctionLabels','visibility', 'none');
     });
 });
 
@@ -87,6 +92,18 @@ map.on('style.load', function (e) {
   map.addSource('watersheds', {
       type: 'geojson',
       "data": 'watersheds.geojson'
+  });
+  map.addSource('planningAreas', {
+      type: 'geojson',
+      "data": 'planningAreas.geojson'
+  });
+  map.addSource('appleValley', {
+      type: 'geojson',
+      "data": 'appleValley.geojson'
+  });
+  map.addSource('easternCorridor', {
+      type: 'geojson',
+      "data": 'easternCorridor.geojson'
   });
   map.addSource('results', {
       type: 'vector',
@@ -261,6 +278,16 @@ map.on('style.load', function (e) {
   }, 'road-label-small');
 
   map.addLayer({
+    "id": "planningFill",
+    "source": "planningAreas",
+    "type": "fill",
+    "paint": {
+        'fill-pattern': 'pedestrian-polygon',
+        'fill-opacity': 0
+    }
+  }, 'road-label-small');
+
+  map.addLayer({
       'id': 'atRisk',
       'type': 'fill',
       'source': 'footprints',
@@ -280,6 +307,41 @@ map.on('style.load', function (e) {
           'line-opacity': 1,
           'line-color': 'rgba(0,0,0,.87)',
           'line-dasharray': [16,8]
+      }
+  }, 'road-label-small');
+
+  map.addLayer({
+      'id': 'easternLines',
+      'type': 'line',
+      'source': 'easternCorridor',
+      'paint': {
+          'line-width': .5,
+          'line-opacity': 0,
+          'line-color': '#b71c1c',
+          'line-dasharray': [16,8]
+      }
+  }, 'road-label-small');
+
+  map.addLayer({
+      'id': 'appleLines',
+      'type': 'line',
+      'source': 'appleValley',
+      'paint': {
+          'line-width': .5,
+          'line-opacity': 0,
+          'line-color': '#1a237e',
+          'line-dasharray': [16,8]
+      }
+  }, 'road-label-small');
+
+  map.addLayer({
+      'id': 'planningAreas',
+      'type': 'line',
+      'source': 'planningAreas',
+      'paint': {
+          'line-width': 3,
+          'line-opacity': 0,
+          'line-color': '#c6ff00'
       }
   }, 'road-label-small');
 
@@ -339,9 +401,11 @@ map.on('style.load', function (e) {
       'id': 'junctions',
       'type': 'circle',
       'source': 'junctions',
+      'layout': {
+         "visibility": 'none'
+       },
       'paint': {
           'circle-radius': 4,
-          'circle-opacity': 0,
           'circle-color': 'rgba(255,61,0 ,1)'
       }
   }, 'road-label-small');
@@ -365,6 +429,7 @@ map.on('style.load', function (e) {
       'type': 'symbol',
       'source': 'junctions',
       'layout': {
+         "visibility": 'none',
          "text-optional": true,
          "text-line-height": 1,
          "text-size": 10,
@@ -377,30 +442,52 @@ map.on('style.load', function (e) {
        "text-color": "rgba(255,61,0 ,1)",
        "text-halo-color": "#F8F4F0",
        "text-halo-width": 1,
-       "text-opacity": 0
      }
   });
 
   map.addLayer({
-      'id': 'subbasinLabels2',
+      'id': 'easternLabels',
       'type': 'symbol',
-      'source': 'subbasinPoints',
+      'source': 'easternCorridor',
       'layout': {
-         'visibility': 'visible',
          "text-optional": true,
          "text-line-height": 1,
+         "text-max-width":8,
          "text-size": {
              "stops": [[15, 8], [17, 12], [19, 14]]
          },
-         "text-field": "{area_ac} Acres",
+         "text-field": "Sub-basin {Name} {LYO_EasternCorridor_Junctions_Q100} cfs",
          'text-font': ['Roboto Regular','Open Sans Regular','Arial Unicode MS Regular'],
-         'text-offset':{ "stops": [[15,[0,1.5]],[17,[0,1.5]]] },
          "text-anchor": "top"
      },
      "paint": {
        "text-color": "#F8F4F0",
-       "text-halo-color": "rgba(0,0,0,.87)",
-       "text-halo-width":  {"stops": [[15,.75],[17,1]]}
+       "text-opacity":0,
+       "text-halo-color": "#b71c1c",
+       "text-halo-width": {"stops": [[15,.75],[17,1]]}
+     }
+  });
+
+  map.addLayer({
+      'id': 'appleLabels',
+      'type': 'symbol',
+      'source': 'appleValley',
+      'layout': {
+         "text-optional": true,
+         "text-line-height": 1,
+         "text-max-width":8,
+         "text-size": {
+             "stops": [[15, 8], [17, 12], [19, 14]]
+         },
+         "text-field": "Sub-basin {Name} {LYO_AppleValley_Junctions_Q100} cfs",
+         'text-font': ['Roboto Regular','Open Sans Regular','Arial Unicode MS Regular'],
+         "text-anchor": "top"
+     },
+     "paint": {
+       "text-color": "#F8F4F0",
+       "text-opacity":0,
+       "text-halo-color": "#1a237e",
+       "text-halo-width": {"stops": [[15,.75],[17,1]]}
      }
   });
 
@@ -412,10 +499,11 @@ map.on('style.load', function (e) {
          "visibility": 'visible',
          "text-optional": true,
          "text-line-height": 1,
+         "text-max-width":7,
          "text-size": {
              "stops": [[15, 8], [17, 12], [19, 14]]
          },
-         "text-field": "Sub-basin {Name}",
+         "text-field": "Sub-basin {Name} {area_ac} Acres",
          'text-font': ['Roboto Regular','Open Sans Regular','Arial Unicode MS Regular'],
          "text-anchor": "top"
      },
@@ -484,7 +572,7 @@ for (var i = 0; i < radios.length; i++) {
 }
 
 map.on('click', function (e) {
-  var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives','subbasinLabels'] });
+  var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives','subbasinLabels','junctions'] });
   if (!features.length) {
       return;
   }
@@ -497,6 +585,11 @@ map.on('click', function (e) {
             .setHTML('<div class="row"><h5>Alternative ' + feature.properties.ID + '</h5><br />' +
                 '<p class="popup-content">' + feature.properties.Description + '</p></div>')
             .addTo(map);
+      } else if (feature.layer.id == 'junctions'){
+          var popup = new mapboxgl.Popup()
+              .setLngLat(e.lngLat)
+              .setHTML('<div><b>' + feature.properties.Name + ': </b><span class="indigo-text">' + feature.properties.Pk_100yr.toFixed(1) + ' cfs</span></div>')
+              .addTo(map);
       } else if (feature.layer.id == 'subbasinLabels'){
 
         var col = feature.properties.Name;
@@ -623,7 +716,7 @@ map.on('click', function (e) {
     });
 
 map.on('mousemove', function (e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives','subbasinLabels'] });
+    var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives','subbasinLabels','junctions'] });
 
     map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 
