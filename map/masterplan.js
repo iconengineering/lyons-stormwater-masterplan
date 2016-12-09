@@ -42,13 +42,13 @@ $(document).ready(function() {
         map.setPaintProperty('120pctLine','line-opacity', 0);
         map.setPaintProperty('subbasinLines','line-opacity', 0);
         map.setPaintProperty('conduits','line-opacity', 0);
-        map.setPaintProperty('altAlignments','line-opacity', 0);
+        map.setLayoutProperty('altAlignments','visibility', 'none');
         map.setPaintProperty('junctions','circle-opacity', 0);
         map.setPaintProperty('conduitArrows','icon-opacity', 0);
-        map.setPaintProperty('alternatives','text-opacity', 0);
+        map.setLayoutProperty('alternatives','visibility', 'none');
         map.setPaintProperty('watershedLabels','text-opacity', 0);
-        map.setPaintProperty('subbasinLabels','text-opacity', 0);
-        map.setPaintProperty('subbasinLabels2','text-opacity', 0);
+        map.setLayoutProperty('subbasinLabels','visibility', 'none');
+        map.setLayoutProperty('subbasinLabels2','visibility', 'none');
         map.setPaintProperty('conduitLabels','text-opacity', 0);
         map.setPaintProperty('junctionLabels','text-opacity', 0);
     });
@@ -350,9 +350,11 @@ map.on('style.load', function (e) {
       'id': 'altAlignments',
       'type': 'line',
       'source': 'altAlignments',
+      'layout': {
+        'visibility': 'none'
+      },
       'paint': {
           'line-width': 2,
-          'line-opacity': 0,
           'line-color': '#00b0ff'
       }
   }, 'road-label-small');
@@ -384,6 +386,7 @@ map.on('style.load', function (e) {
       'type': 'symbol',
       'source': 'subbasinPoints',
       'layout': {
+         'visibility': 'visible',
          "text-optional": true,
          "text-line-height": 1,
          "text-size": {
@@ -397,8 +400,7 @@ map.on('style.load', function (e) {
      "paint": {
        "text-color": "#F8F4F0",
        "text-halo-color": "rgba(0,0,0,.87)",
-       "text-halo-width":  {"stops": [[15,.75],[17,1]]},
-       "text-opacity":0
+       "text-halo-width":  {"stops": [[15,.75],[17,1]]}
      }
   });
 
@@ -407,6 +409,7 @@ map.on('style.load', function (e) {
       'type': 'symbol',
       'source': 'subbasinPoints',
       'layout': {
+         "visibility": 'visible',
          "text-optional": true,
          "text-line-height": 1,
          "text-size": {
@@ -419,8 +422,7 @@ map.on('style.load', function (e) {
      "paint": {
        "text-color": "#F8F4F0",
        "text-halo-color": "rgba(0,0,0,.87)",
-       "text-halo-width": {"stops": [[15,.75],[17,1]]},
-       "text-opacity":0
+       "text-halo-width": {"stops": [[15,.75],[17,1]]}
      }
   });
 
@@ -451,6 +453,7 @@ map.on('style.load', function (e) {
         'type': 'symbol',
         'source': 'alternatives',
         'layout': {
+          'visibility': 'none',
           'symbol-placement': 'point',
           'text-field': '{ID}',
           'text-font': ['Roboto Bold','Open Sans Bold','Arial Unicode MS Regular'],
@@ -459,7 +462,6 @@ map.on('style.load', function (e) {
           }
         },
         'paint': {
-          'text-opacity':0,
           'text-color': '#0091ea',
           'text-halo-color': 'rgba(250,250,250 ,0.9)',
           'text-halo-width': 2,
@@ -482,31 +484,132 @@ for (var i = 0; i < radios.length; i++) {
 }
 
 map.on('click', function (e) {
-  var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives'] });
+  var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives','subbasinLabels'] });
   if (!features.length) {
       return;
   }
 
   var feature = features[0];
-  var opacity = map.getPaintProperty('alternatives', 'text-opacity');
 
-    if (feature.layer.id == 'alternatives' && opacity != 0){
+    if (feature.layer.id == 'alternatives'){
         var popup = new mapboxgl.Popup()
             .setLngLat(e.lngLat)
             .setHTML('<div class="row"><h5>Alternative ' + feature.properties.ID + '</h5><br />' +
                 '<p class="popup-content">' + feature.properties.Description + '</p></div>')
             .addTo(map);
-      }
+      } else if (feature.layer.id == 'subbasinLabels'){
+
+        var col = feature.properties.Name;
+        console.log(col);
+
+        var	margin = {top: 10, right: 40, bottom: 30, left: 50},
+          	width = 240 - margin.left - margin.right,
+          	height = 240 - margin.top - margin.bottom;
+
+          var	x = d3.scale.linear().range([0, width]);
+          var	y = d3.scale.linear().range([height, 0]);
+
+          x.domain([0, 240]);
+          y.domain([0, 600]);
+
+          var	xAxis = d3.svg.axis().scale(x)
+          	.orient("bottom")
+            .tickValues([60,120,180,240]);
+
+          var	yAxis = d3.svg.axis().scale(y)
+          	.orient("left").ticks(5);
+
+          var	valueline = d3.svg.line()
+          	.x(function(d) { return x(d.date); })
+          	.y(function(d) { return y(d.basin100); });
+
+          var	valueline2 = d3.svg.line()
+          	.x(function(d) { return x(d.date); })
+          	.y(function(d) { return y(d.basin10); });
+
+          var div = window.document.createElement('div');
+          div.innerHTML = '<div class="row"><b>Basin ' + feature.properties.Name + ' Hydrograph</b></div>';
+
+          var	svg = d3.select(div)
+          	.append("svg")
+          		.attr("width", width + margin.left + margin.right)
+          		.attr("height", height + margin.top + margin.bottom)
+          	.append("g")
+          		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+          // Get the 100 year data
+          d3.csv("hydrographs-100.csv", function(error, data) {
+          	data.forEach(function(d) {
+          		d.date = +d.Time;
+          		d.basin100 = +d[col];
+          	});
+
+          	var graph = svg.append("path")		// Add the valueline path.
+          		.attr("class", "line")
+          		.attr("d", valueline(data));
+
+              var totalLength = graph.node().getTotalLength();
+
+              graph
+                .attr("stroke-dasharray", totalLength + " " + totalLength)
+                .attr("stroke-dashoffset", totalLength)
+                .transition()
+                  .duration(1000)
+                  .ease("linear")
+                  .attr("stroke-dashoffset", 0);
+
+          	svg.append("g")			// Add the X Axis
+          		.attr("class", "x axis")
+          		.attr("transform", "translate(0," + height + ")")
+          		.call(xAxis);
+
+          	svg.append("g")			// Add the Y Axis
+          		.attr("class", "y axis")
+          		.call(yAxis)
+              .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 8)
+                .attr("dy", ".5em")
+                .attr("font-size", 8)
+                .style("text-anchor", "end")
+                .text("Flow (cfs)");
+            });
+
+            // Get the 10 year data
+            d3.csv("hydrographs-10.csv", function(error, data) {
+            	data.forEach(function(d) {
+            		d.date = +d.Time;
+            		d.basin10 = +d[col];
+            	});
+
+              var graph = svg.append("path")		// Add the valueline2 path.
+            		.attr("class", "line")
+            		.style("stroke", "steelblue")
+            		.attr("d", valueline2(data));
+
+                var totalLength = graph.node().getTotalLength();
+
+                graph
+                  .attr("stroke-dasharray", totalLength + " " + totalLength)
+                  .attr("stroke-dashoffset", totalLength)
+                  .transition()
+                    .duration(1000)
+                    .ease("linear")
+                    .attr("stroke-dashoffset", 0);
+              });
+
+          var d3popup = new mapboxgl.Popup()
+              .setLngLat(e.lngLat)
+              .setDOMContent(div)
+              .addTo(map);
+        }
     });
 
 map.on('mousemove', function (e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives'] });
+    var features = map.queryRenderedFeatures(e.point, { layers: ['alternatives','subbasinLabels'] });
 
-    var opacity = map.getPaintProperty('alternatives', 'text-opacity');
-
-    if (opacity != 0){
     map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-  }
+
 });
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');

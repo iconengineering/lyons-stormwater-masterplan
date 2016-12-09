@@ -98,3 +98,17 @@ color: #64FFDA;
   font-size: small;
   line-height: 18px;
 }
+
+path {
+	stroke: red;
+	stroke-width: 2;
+	fill: none;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: grey;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}

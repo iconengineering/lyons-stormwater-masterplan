@@ -13,6 +13,7 @@
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
     <link rel="stylesheet" href="fixed-drawer.css">
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -64,6 +65,9 @@
                 <p class="grey-text text-darken-2 note">
                   UDFCD's Colorado Urban Hydrograph Procedure (CUHP) was used to develop runoff hydrographs for each sub-basin in the study.
                 </p>
+                <p class="grey-text text-darken-2 note">
+                  Click on the sub-basin labels to view hydrographs.
+                </p>
               </div>
               <p>
                 <input name="watersheds" type="checkbox" id="watersheds" class="layer-on" onclick="smoothTwo('watersheds','fill-opacity',.4,'watershedLabels','text-opacity',1)" checked/>
@@ -74,7 +78,7 @@
                 <label for="subbasins" class="valign">Sub-basins</label>
               </p>
               <p class="indent">
-                <input name="subbasinLabels" type="checkbox" id="subbasinLabels" class="layer-off filled-in small-checkbox" onclick="smoothTwo('subbasinLabels','text-opacity',1,'subbasinLabels2','text-opacity',1)"/>
+                <input name="subbasinLabels" type="checkbox" id="subbasinLabels" class="layer-on filled-in small-checkbox" onclick="toggleTwo('subbasinLabels','subbasinLabels2')" checked/>
                 <label for="subbasinLabels" class="valign">Labels</label>
               </p>
               <p>
@@ -164,7 +168,7 @@
                 </p>
               </div>
               <p>
-                <input name="alternatives" type="checkbox" id="alternatives" class="layer-off" onclick="smoothTwo('alternatives','text-opacity',1, 'altAlignments','line-opacity',1)"/>
+                <input name="alternatives" type="checkbox" id="alternatives" class="layer-off" onclick="toggleTwo('alternatives','altAlignments')"/>
                 <label for="alternatives" class="valign">Alternatives</label>
               </p>
             </div>
