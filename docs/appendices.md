@@ -8,7 +8,7 @@
 *Routing Map*
 {: .caption }
 
-[Hydrology Report (Download PDF)](assets/img/Lyons_Hydrology_Report_October_2016.pdf){: target="_blank" data-action="download" } 
+[Hydrology Report (Download PDF)](assets/img/Lyons_Hydrology_Report_October_2016.pdf){: target="_blank" data-action="download" }
 
 ## Appendix B - HYDRAULICS
 
@@ -42,7 +42,7 @@
 
 ## Appendix C - ALTERNATIVES ANALYSIS
 
-[Alternative: Red Hill Gulch Lower Channel (Download PDF)](assets/img/RHG-IMPROV-60-SCALE-PLAN.pdf){: target="_blank" data-action="download" } 
+[Alternative: Red Hill Gulch Lower Channel (Download PDF)](assets/img/RHG-IMPROV-60-SCALE-PLAN.pdf){: target="_blank" data-action="download" }
 
 ## Appendix D - WATER QUALITY
 
@@ -68,16 +68,20 @@ Water Quality Outfall Alternatives:
 *Level Spreader*
 {: .caption }
 
-[Water Quality (Download PDF)](assets/img/Water-Quality.pdf){: target="_blank" data-action="download" } 
+[Water Quality (Download PDF)](assets/img/Water-Quality.pdf){: target="_blank" data-action="download" }
 
 ## Appendix E - DRAINAGE CRITERIA
 
-[Addendum to USDCM (Download PDF)](assets/img/2016-Lyons-Addendum-to-USDCM.pdf){: target="_blank" data-action="download" } 
+[Addendum to USDCM (Download PDF)](assets/img/2016-Lyons-Addendum-to-USDCM.pdf){: target="_blank" data-action="download" }
 
 ## Appendix F - COLLECTED DATA
 
-*forthcoming*
+[Field Data Collection Inventory (Download PDF)](assets/img/LyonsDataCollection.pdf){: target="_blank" data-action="download" }
 
 ## Appendix G - FUTURE PLANNING AREAS
 
-*forthcoming*
+[![appendix g image](assets/img/FigureG-1.jpg){: .appendix-img }](assets/img/FigureG-1.jpg){: target="_blank" }   
+*Future Planning Areas*
+{: .caption }
+
+[CUHP Input (Download PDF)](assets/img/AppendixG_Complete.pdf){: target="_blank" data-action="download" }

@@ -78,11 +78,14 @@ cost for Steamboat drainage.
 
 #### 6.3.3 Multiple Hillside Ponds
 
-Staged detention facilities staggered in stair-step fashion up the steep
-slopes is another alternative to achieve the benefits of detention
-without significant excavation. However, the extensive footprint of
-disturbance for multiple embankments, overflow spillway design, and
-permanent impact on property makes
+Staged detention facilities staggered in stair-step fashion up the steep slopes
+is another alternative to achieve the benefits of detention without significant
+excavation. However, the extensive footprint of disturbance for multiple
+embankments, overflow spillway design, and permanent impact on property makes
+this a challenging alternative.  If future development, annexation, and
+stormwater infrastructure funding allows this alternative can be studied in
+greater detail.  For the immediate future, this is a difficult alternative to
+consider for near term funding.
 
 #### 6.3.4 Property Acquisition
 
@@ -163,7 +166,7 @@ Contract Administration / Construction Management, and Contingency.
 
 #### A - Red Hill Gulch Overflow Channel East
 
-[![picture](assets/img/6-7a.jpg){: .center-img }](assets/img/6-7a.jpg){: target="_blank" } 
+[![picture](assets/img/6-7a.jpg){: .center-img }](assets/img/6-7a.jpg){: target="_blank" }
 *Red Hill Gulch Overflow Channel East would intercept flows  
 before diverting runoff into Lyons Valley Park Subdivision*
 {: .caption }
@@ -451,9 +454,11 @@ Downstream of Stone Canyon Road, private development has infringed on Stone
 Canyon Drainageway. The existing roadway crossing at Ute Highway lacks the
 capacity to convey the 100-year discharge without overtopping the roadway. A
 significant box culvert roadway crossing structure would be required to convey
-the 100-year discharge without overtopping.
+the 100-year discharge without overtopping. The conveyance of Stone Canyon
+Drainageway downstream of Stone Canyon Road to the St. Vrain Creek should be
+analyzed in further detail when the Eastern Corridor expansion is finalized.
 
-[![picture](assets/img/Figure6-1.jpg){: .center-img }](assets/img/Figure6-1.jpg){: target="_blank" } 
+[![picture](assets/img/Figure6-1.jpg){: .center-img }](assets/img/Figure6-1.jpg){: target="_blank" }
 *Figure 6-1: Project Alternatives*
 {: .caption }
 

@@ -415,7 +415,7 @@ map.on('style.load', function (e) {
          "text-size": {
              "stops": [[15, 8], [17, 12], [19, 14]]
          },
-         "text-field": "Subbasin {Name}",
+         "text-field": "Sub-basin {Name}",
          'text-font': ['Roboto Regular','Open Sans Regular','Arial Unicode MS Regular'],
          "text-anchor": "top"
      },
@@ -528,7 +528,7 @@ map.on('click', function (e) {
           	.y(function(d) { return y(d.basin10); });
 
           var div = window.document.createElement('div');
-          div.innerHTML = '<div class="row"><b>Basin ' + feature.properties.Name + ' Hydrograph</b></div>';
+          div.innerHTML = '<div class="row"><b>Sub-basin ' + feature.properties.Name + ' Hydrograph</b></div>';
 
           var	svg = d3.select(div)
           	.append("svg")
@@ -568,11 +568,28 @@ map.on('click', function (e) {
           		.call(yAxis)
               .append("text")
                 .attr("transform", "rotate(-90)")
-                .attr("y", 8)
-                .attr("dy", ".5em")
+                .attr("y", 10)
                 .attr("font-size", 8)
                 .style("text-anchor", "end")
                 .text("Flow (cfs)");
+
+            svg.append("text")
+                .attr("y", 4)
+                .attr("x", 150)
+                .attr("font-size", 10)
+                .attr("font-weight", "bold")
+                .attr("fill", "steelblue")
+                .style("text-anchor", "end")
+                .text("10-Year");
+
+            svg.append("text")
+                .attr("y", 16)
+                .attr("x", 150)
+                .attr("font-size", 10)
+                .attr("font-weight", "bold")
+                .attr("fill", "red")
+                .style("text-anchor", "end")
+                .text("100-Year");
             });
 
             // Get the 10 year data

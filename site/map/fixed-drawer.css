@@ -1,4 +1,4 @@
-html, body {
+html, body, .mapboxgl-map {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
