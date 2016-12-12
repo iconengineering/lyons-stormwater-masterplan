@@ -44,7 +44,9 @@
 
 ## Appendix C - ALTERNATIVES ANALYSIS
 
-[Alternative: Red Hill Gulch Lower Channel (Download PDF)](assets/img/RHG-IMPROV-60-SCALE-PLAN.pdf){: target="_blank" data-action="download" }
+[Conceptual Alternative Drawings (Download PDF)](assets/img/AppendixC_Alternatives.pdf){: target="_blank" data-action="download" }
+
+[Conceptual Alternative Cost Estimates (Download PDF)](assets/img/AppendixC_Costs.pdf){: target="_blank" data-action="download" }
 
 ## Appendix D - WATER QUALITY
 

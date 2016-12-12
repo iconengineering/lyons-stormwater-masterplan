@@ -154,7 +154,8 @@ between May and July 2016. A photo, description, condition, and location
 of each structure was recorded in the field and stored in a geospatial
 database. The geospatial data has been utilized within the Town's larger
 GIS database. A link to the online repository for the data is available
-for review: [Appendix K](#). This online repository link will expire in
+for review [here](https://iconengineering.github.io/lyons/collection){: target="_blank" }.
+This online repository link will expire in
 the near future, but the data is preserved in perpetuity through the
 Town's GIS database.
 

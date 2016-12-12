@@ -22,7 +22,7 @@ limits. These areas were identified for study after the completion of
 the stormwater inventory and hydrologic analysis. However, this study
 has provided some limited information relative to adjacent areas.
 
-[![Watershed Map](assets/img/Figure2-1.jpg){: .center-img }](assets/img/Figure2-1.jpg){: target="_blank" } 
+[![Watershed Map](assets/img/Figure2-1.jpg){: .center-img }](assets/img/Figure2-1.jpg){: target="_blank" }
 *Figure 2-1: Watersheds Map*
 {: .caption }
 
@@ -440,7 +440,7 @@ guidance.
 
 The study area has been divided into eleven separate outfalls based on
 their general drainage patterns. A description of each outfall can be
-found below with an outfall map found in XXX .
+found below.
 
 #### 2.3.1 Eagle Canyon
 
@@ -457,7 +457,7 @@ Canyon drainage.
 
 #### 2.3.2 Eastern Lyons
 
-[![picture](assets/img/2-3-2.jpg){: .center-img }](assets/img/2-3-2.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-2.jpg){: .center-img }](assets/img/2-3-2.jpg){: target="_blank" }
 *Eastern Lyons Watershed on First Avenue looking towards downtown*
 {: .caption }
 
@@ -486,7 +486,7 @@ the study.
 
 #### 2.3.3 Ewald Ave
 
-[![picture](assets/img/2-3-3.jpg){: .center-img }](assets/img/2-3-3.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-3.jpg){: .center-img }](assets/img/2-3-3.jpg){: target="_blank" }
 *Ewald Watershed looking east down Prospect Street*
 {: .caption }
 
@@ -505,7 +505,7 @@ to North St. Vrain Creek.
 
 #### 2.3.4 Lyons Valley Park
 
-[![picture](assets/img/2-3-4.jpg){: .center-img }](assets/img/2-3-4.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-4.jpg){: .center-img }](assets/img/2-3-4.jpg){: target="_blank" }
 *Lyons Valley Park looking south towards hogback*
 {: .caption }
 
@@ -531,11 +531,11 @@ areas.
 
 #### 2.3.6 Red Hill Gulch
 
-[![picture](assets/img/2-3-6a.jpg){: .center-img }](assets/img/2-3-6a.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-6a.jpg){: .center-img }](assets/img/2-3-6a.jpg){: target="_blank" }
 *Headwaters of the Red Hill Gulch Watershed*
 {: .caption }
 
-[![picture](assets/img/2-3-6b.jpg){: .center-img }](assets/img/2-3-6b.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-6b.jpg){: .center-img }](assets/img/2-3-6b.jpg){: target="_blank" }
 *Red Hill Gulch Watershed exiting the canyons*
 {: .caption }
 
@@ -574,7 +574,7 @@ intersection into St. Vrain Creek.
 
 #### 2.3.9 Steamboat Valley
 
-[![picture](assets/img/2-3-9a.jpg){: .center-img }](assets/img/2-3-9a.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-9a.jpg){: .center-img }](assets/img/2-3-9a.jpg){: target="_blank" }
 *Steamboat Valley upstream of Vasquez Road*
 {: .caption }
 
@@ -590,7 +590,7 @@ watershed is bounded by 4<sup>th</sup> Avenue to the east and North St.
 Vrain Creek to the west. The watershed ranges in elevation from 6520
 feet to 5335 feet.
 
-[![picture](assets/img/2-3-9b.jpg){: .center-img }](assets/img/2-3-9b.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-9b.jpg){: .center-img }](assets/img/2-3-9b.jpg){: target="_blank" }
 *Steamboat Valley downstream of Vasquez Road*
 {: .caption }
 
@@ -606,7 +606,7 @@ box culvert intercepts flow and conveys flow underneath downtown until
 the outfall location into North St. Vrain Creek. The slope is
 approximately four percent downstream of the railroad embankment.
 
-[![picture](assets/img/2-3-9c.jpg){: .center-img }](assets/img/2-3-9c.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-9c.jpg){: .center-img }](assets/img/2-3-9c.jpg){: target="_blank" }
 *Steamboat Valley downstream of Seward Avenue*
 {: .caption }
 
@@ -624,7 +624,7 @@ outfall location into North St. Vrain Creek.
 
 #### 2.3.10 Stone Canyon
 
-[![picture](assets/img/2-3-10.jpg){: .center-img }](assets/img/2-3-10.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-10.jpg){: .center-img }](assets/img/2-3-10.jpg){: target="_blank" }
 *Stone Canyon upstream of Stone Canyon Road*
 {: .caption }
 
@@ -644,7 +644,7 @@ reinforced concrete box culvert into St. Vrain Creek.
 
 #### 2.3.11 Third Avenue
 
-[![picture](assets/img/2-3-11.jpg){: .center-img }](assets/img/2-3-11.jpg){: target="_blank" } 
+[![picture](assets/img/2-3-11.jpg){: .center-img }](assets/img/2-3-11.jpg){: target="_blank" }
 *Third Avenue downstream towards Main Street*
 {: .caption }
 

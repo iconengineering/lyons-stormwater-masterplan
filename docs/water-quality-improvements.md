@@ -21,7 +21,7 @@ Other larger scale water quality projects are just as important to the
 overall stream health. Larger ponds integrated into public spaces are a
 typical method of capturing a large water quality volume. Ordinances
 that require water quality implementation for new and redevelopment can
-be equally important. (See Appendix X for examples.)
+be equally important.
 
 7.1 Small Scale Water Quality Improvements
 ------------------------------------------
@@ -33,7 +33,7 @@ improvements that incorporate water quality treatment. One example of
 this multi-purpose streetscape is a tree-well water quality
 installation. Additional information is provided by the EPA’s
 [“Stormwater to Street Trees” informational
-guide.](http://www.davey.com/media/183712/stormwater_to_street_trees.pdf){: target="_blank" } 
+guide.](http://www.davey.com/media/183712/stormwater_to_street_trees.pdf){: target="_blank" }
 
 The tree wells have an advantage of water quality treatment in the
 highly impervious main street area, but also have application in side
@@ -52,7 +52,7 @@ impact on roadways, sidewalks, icing, and maintenance. A cul-de-sac or
 small parking area could be routed to an infiltration basin or rain
 garden for additional water quality treatment. [Additional design and
 maintenance information is provided by
-UDFCD.](http://udfcd.org/wp-content/uploads/2014/07/T-03-Bioretention.pdf){: target="_blank" } 
+UDFCD.](http://udfcd.org/wp-content/uploads/2014/07/T-03-Bioretention.pdf){: target="_blank" }
 
 #### 7.1.3 Rainwater Harvesting
 
@@ -67,7 +67,7 @@ be captured in rain water harvesting systems. More importantly, the peak
 runoff events from the impervious surfaces are attenuated, or delayed,
 from entering the municipal stormwater system. [This reduces the volume
 of stormwater treated by downstream
-systems.](http://extension.colostate.edu/topic-areas/natural-resources/rainwater-collection-colorado-6-707/){: target="_blank" } 
+systems.](http://extension.colostate.edu/topic-areas/natural-resources/rainwater-collection-colorado-6-707/){: target="_blank" }
 
 7.2 Large Scale Water Quality Improvements
 ------------------------------------------
@@ -125,7 +125,7 @@ asphalt, or the freeze thaw action on pervious concrete surfaces are all
 documented issues. Ultimately, pervious pavement surfaces work well when
 combined with traditional pavement surfaces for high traffic, heavy
 load, and high maintenance pathways. The UDFCD has a [good
-worksheet](http://udfcd.org/wp-content/uploads/2014/07/T-10-Permeable-Pavements.pdf){: target="_blank" } 
+worksheet](http://udfcd.org/wp-content/uploads/2014/07/T-10-Permeable-Pavements.pdf){: target="_blank" }
 describing the opportunities and limitations of pervious surfaces.
 
 7.3 Outfall Water Quality

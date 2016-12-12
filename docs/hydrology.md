@@ -15,7 +15,7 @@ the UDFCD boundary, further investigations were made to confirm the
 applicability of the new CUHP software in comparison to other hydrologic
 methods. The selection of the hydrologic model is discussed below.
 
-A full copy of the Hydrologic study is provided in *Appendix B.*
+A full copy of the Hydrologic study is provided in *Appendix A.*
 
 3.2 Hydrologic Model
 --------------------
@@ -68,7 +68,7 @@ were higher than any of the other hydrologic methods which potentially
 would overestimate the peak flows for the Town. The regional regression
 equations significantly underestimated the unit rates of runoff when
 compared to the other hydrologic model methods. Further documentation on
-the hydrologic model recommendations can be found in Appendix B.
+the hydrologic model recommendations can be found in *Appendix A*.
 
 3.3 Design Rainfall
 -------------------
@@ -178,7 +178,7 @@ adjustments were made to these recommended values.
 Soils data was obtained from USDA NRCS Soil Survey Geographic Database
 for the project area which classified the soils into Hydrologic Soils
 Groups (HSGs). Additional soils mapping was obtained from the USDA NRCS
-Web Soil Survey. This information is provided in Appendix B.
+Web Soil Survey. This information is provided in *Appendix A*.
 
 The initial rate, final rate, and decay coefficient for the Horton's
 infiltration parameters were based on the recommended values in the
@@ -288,7 +288,7 @@ D
 The hydrologic analysis was conducted for both existing conditions and
 future conditions land use. The 100-year peak discharges from CUHP v2.0
 for both conditions are presented in Table 3-3. CUHP output for other
-recurrence intervals is provided in Appendix B.
+recurrence intervals is provided in *Appendix A*.
 
 Although this hydrologic analysis did not calibrate peak flows to the
 previous Town of Lyons Drainage Master Plan Final Report prepared by
@@ -1245,7 +1245,7 @@ relationship. Input parameters for storage outlets include: outlet
 identifier, upstream and downstream node identifiers, and a
 stage-discharge relationship. Input parameters for outfalls include the
 outfall identifier and invert elevation. Input parameters for the SWMM
-model are provided in Appendix B.
+model are provided in *Appendix A*.
 
 #### 3.5.1 SWMM Node Input Parameters
 
@@ -1303,7 +1303,7 @@ elsewhere within the project area.
 The SWMM routing was conducted for both existing conditions and future
 conditions. The 100-year peak discharges at all of the outfalls from the
 SWMM model for both conditions are presented in Table 3-4. SWMM output
-for other recurrence intervals is provided in *Appendix J.*
+for other recurrence intervals is provided in *Appendix A.*
 
 ###### Table 3-4: SWMM Output, 100-Year
 <table align="center" style="border-collapse: collapse; caption-side:top; font-size:11pt;">
@@ -1551,7 +1551,7 @@ North St. Vrain Creek
 </tr>
 </table>
 
-[![picture](assets/img/timeseries-1.png){: .center-img }](assets/img/timeseries-1.png){: target="_blank" } 
+[![picture](assets/img/timeseries-1.png){: .center-img }](assets/img/timeseries-1.png){: target="_blank" }
 *SWMM Hydrographs*
 {: .caption }
 

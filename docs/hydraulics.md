@@ -48,8 +48,7 @@ structures).
 
 Existing storm drain infrastructure was evaluated to determine the
 approximate design storm frequency. A summary of existing infrastructure
-is provided in the GIS data provided in *Appendix K. (or on web map
-application at www...)*
+is provided in the GIS data provided in *Appendix F*.
 
 FLO-2D software is a two-dimensional flood routing model that was used
 to identify residual flood potential with the watershed. FLO-2D
@@ -78,8 +77,8 @@ and larger were included in the FLO-2D model.
 Separate FLO-2D models were used to distinguish the flooding potential
 for the study area for each of the design storms.
 
-The results of these models are provided in *Appendix D*. (And also on
-the web map at www...)
+The results of these models are provided in *Appendix B* (and also on
+the interactive web map).
 
 4.3 Flood Hazards
 -----------------
@@ -178,7 +177,7 @@ Land use changes in this area have limited the flood risk significantly.
 
 #### 4.3.6 Red Hill Gulch
 
-[![picture](assets/img/4-3-6.jpg){: .center-img }](assets/img/4-3-6.jpg){: target="_blank" } 
+[![picture](assets/img/4-3-6.jpg){: .center-img }](assets/img/4-3-6.jpg){: target="_blank" }
 *Flows exceeding the capacity of the South Ledge Ditch continue north in an unconfined flow path*
 {: .caption }
 
@@ -228,7 +227,7 @@ design flow for the subwatershed, impacting more properties.
 
 #### 4.3.9 Steamboat Valley
 
-[![picture](assets/img/4-3-9a.jpg){: .center-img }](assets/img/4-3-9a.jpg){: target="_blank" } 
+[![picture](assets/img/4-3-9a.jpg){: .center-img }](assets/img/4-3-9a.jpg){: target="_blank" }
 *Existing Steamboat Valley channel lacks conveyance capacity*
 {: .caption }
 
@@ -248,7 +247,7 @@ hazard damaging private property. Any flow that is not intercepted by
 the historic stone culvert continues on the surface flowing through
 backyards with additional impact to private property and structures.
 
-[![picture](assets/img/4-3-9b.jpg){: .center-img }](assets/img/4-3-9b.jpg){: target="_blank" } 
+[![picture](assets/img/4-3-9b.jpg){: .center-img }](assets/img/4-3-9b.jpg){: target="_blank" }
 *Steamboat Valley at Reese Street between 4th and 5th Avenue*
 {: .caption }
 
