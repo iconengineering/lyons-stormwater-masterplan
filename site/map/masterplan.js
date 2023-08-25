@@ -9,18 +9,7 @@ var map = new mapboxgl.Map({
 });
 
 var layerList = document.getElementById('menu');
-// var inputs = layerList.getElementsByTagName('input');
 
-// function switchLayer(layer) {
-//     var layerId = layer.target.value;
-//     map.setStyle('mapbox://styles/iconeng/' + layerId);
-//     $('.layer-off').prop('checked', false);
-//     $('.layer-on').prop('checked', true);
-// }
-
-// for (var i = 0; i < inputs.length; i++) {
-//     inputs[i].onclick = switchLayer;
-// }
 
 $(document).ready(function () {
     $("#clear").click(function () {
