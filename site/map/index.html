@@ -1,234 +1,327 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8' />
-    <title>Lyons Stormwater Masterplan</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.lime-teal.min.css">
-    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-    <link rel="stylesheet" href="fixed-drawer.css">
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <meta charset='utf-8' />
+  <title>Lyons Stormwater Masterplan</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.lime-teal.min.css">
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  <link rel="stylesheet" href="fixed-drawer.css">
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-66511604-1', 'auto');
     ga('send', 'pageview');
 
-    </script>
+  </script>
   <style>
-    body { margin:0; padding:0; }
-    #map { position:absolute; height: calc(100vh); width: calc(100vw - 320px); }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      height: calc(100vh);
+      width: calc(100vw - 320px);
+    }
+
     @media only screen and (max-width: 1024px) {
-      #map {width: 100vw;}
-}
+      #map {
+        width: 100vw;
+      }
+    }
   </style>
 </head>
+
 <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
     <div class="mdl-layout__drawer mdl-color--grey-700 mdl-color-text--grey-50 mdl-shadow--2dp">
-      <a href="../" class="link"><h4 style="padding-left:1rem;">Town of Lyons<br/>Stormwater Masterplan</a><br/>Interactive Map</h4>
-        <ul class="collapsible" data-collapsible="expandable" style="border-right: none; border-left: none;">
-          <li>
-            <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Base Map</div>
-            <div id="menu" class="collapsible-body white">
-              <div class="demo-toggles">
-                <p class="narrow">
-                  <input name="group1" type="radio" id="test1" value='cihxv74vo00oynpm48wsujwo3'/>
-                  <label for="test1">Satellite</label>
-                </p>
-                <p class="narrow">
-                  <input name="group1" type="radio" id="test2" value="civjrd2la004z2immqynhr4fd" checked/>
-                  <label for="test2">Light</label>
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Hydrology</div>
-            <div class="collapsible-body white">
-              <div class="row">
-                <p class="grey-text text-darken-2 note">
-                  For this study, a new hydrologic model was prepared for the Town of Lyons. This
-                  purpose of this model was to develop updated hydrology for the 2-, 5-, 10-, 50-,
-                  and 100-year storm frequencies for both existing and future imperviousness.
-                </p>
-                <p class="grey-text text-darken-2 note">
-                  UDFCD's Colorado Urban Hydrograph Procedure (CUHP) was used to develop runoff hydrographs for each sub-basin in the study.
-                </p>
-                <p class="grey-text text-darken-2 note">
-                  Click on the sub-basin labels to view hydrographs.
-                </p>
-              </div>
-              <p>
-                <input name="watersheds" type="checkbox" id="watersheds" class="layer-on" onclick="smoothTwo('watersheds','fill-opacity',.4,'watershedLabels','text-opacity',1)" checked/>
-                <label for="watersheds" class="valign">Watersheds</label>
+      <a href="../" class="link">
+        <h4 style="padding-left:1rem;">Town of Lyons<br />Stormwater Masterplan
+      </a><br />Interactive Map</h4>
+      <ul class="collapsible" data-collapsible="expandable" style="border-right: none; border-left: none;">
+        <!-- <li>
+          <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Base Map</div>
+          <div id="menu" class="collapsible-body white">
+            <div class="demo-toggles">
+              <p class="narrow">
+                <input name="group1" type="radio" id="test1" value='cihxv74vo00oynpm48wsujwo3' />
+                <label for="test1">Satellite</label>
               </p>
-              <p>
-                <input name="subbasins" type="checkbox" id="subbasins" class="layer-on" onclick="toggleSmooth('subbasinLines','line-opacity',1)" checked/>
-                <label for="subbasins" class="valign">Sub-basins</label>
-              </p>
-              <p class="indent">
-                <input name="subbasinLabels" type="checkbox" id="subbasinLabels" class="layer-on filled-in small-checkbox" onclick="toggleLayer('subbasinLabels')" checked/>
-                <label for="subbasinLabels" class="valign">Labels</label>
-              </p>
-              <p>
-                <input name="conduits" type="checkbox" id="conduits" class="layer-off" onclick="smoothThree('conduits','line-opacity',1,'conduitLabels','text-opacity',1,'conduitArrows','icon-opacity',1)"/>
-                <label for="conduits" class="valign">Conduits</label>
-              </p>
-              <p>
-                <input name="junctions" type="checkbox" id="junctions" class="layer-off" onclick="toggleTwo('junctions','junctionLabels')"/>
-                <label for="junctions" class="valign">Junctions</label>
+              <p class="narrow">
+                <input name="group1" type="radio" id="test2" value="civjrd2la004z2immqynhr4fd" checked />
+                <label for="test2">Light</label>
               </p>
             </div>
-          </li>
-          <li>
-            <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Hydraulics</div>
-            <div class="collapsible-body white">
-              <div class="row">
-                <p class="grey-text text-darken-2 note">
-                  One very important note about the hydraulic data displayed on this map: the inundation areas and associated at-risk structures are not representative or derived from the FEMA regulatory 100-year floodplain.
-                </p>
-                <p class="grey-text text-darken-2 note">
-                  The hydraulic data on this map represents flooding from localized runoff and in no way affects any property owner's regulatory floodplain status.
-                </p>
-              </div>
-              <p>
-                <input name="hazards" type="checkbox" id="footprints" onclick="toggleSmooth('atRisk','fill-opacity',1)" class="layer-off"/>
-                <label for="footprints" class="multiline">At-Risk Structures<br/>
-                </label>
+          </div>
+        </li> -->
+        <li>
+          <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Hydrology</div>
+          <div class="collapsible-body white">
+            <div class="row">
+              <p class="grey-text text-darken-2 note">
+                For this study, a new hydrologic model was prepared for the Town of Lyons. This
+                purpose of this model was to develop updated hydrology for the 2-, 5-, 10-, 50-,
+                and 100-year storm frequencies for both existing and future imperviousness.
               </p>
-              <div id="filters" style="padding-left: 3rem;">
-                <p class="narrow">
-                  <input name="group2" type="radio" id="fut2" value='Fut2' class="layer-on" checked/>
-                  <label for="fut2">2-Year</label>
-                </p>
-                <p class="narrow">
-                  <input name="group2" type="radio" id="fut5" value='Fut5' class="layer-off" />
-                  <label for="fut5">5-Year</label>
-                </p>
-                <p class="narrow">
-                  <input name="group2" type="radio" id="fut10" value='Fut10' class="layer-off"/>
-                  <label for="fut10">10-Year</label>
-                </p>
-                <p class="narrow">
-                  <input name="group2" type="radio" id="fut50" value='Fut50' class="layer-off"/>
-                  <label for="fut50">50-Year</label>
-                </p>
-                <p class="narrow">
-                  <input name="group2" type="radio" id="fut100" value='Fut100' class="layer-off"/>
-                  <label for="fut100">100-Year</label>
-                </p>
-                <p class="narrow">
-                  <input name="group2" type="radio" id="fire100" value='Fire100' class="layer-off"/>
-                  <label for="fire100">120%</label>
-                </p>
-              </div>
-              <p>
-                <input name="hazards" type="checkbox" id="2yr" class="layer-off" onclick="smoothTwo('2yrFill','fill-opacity',.5,'2yrLine','line-opacity',1)"/>
-                <label for="2yr" class="valign">2-Year Inundation</label>
+              <p class="grey-text text-darken-2 note">
+                UDFCD's Colorado Urban Hydrograph Procedure (CUHP) was used to develop runoff hydrographs for each
+                sub-basin in the study.
               </p>
-              <p>
-                <input name="hazards" type="checkbox" id="5yr" class="layer-off" onclick="smoothTwo('5yrFill','fill-opacity',.5,'5yrLine','line-opacity',1)"/>
-                <label for="5yr" class="valign">5-Year Inundation</label>
-              </p>
-              <p>
-                <input name="hazards" type="checkbox" id="10yr" class="layer-off" onclick="smoothTwo('10yrFill','fill-opacity',.5,'10yrLine','line-opacity',1)"/>
-                <label for="10yr" class="valign">10-Year Inundation</label>
-              </p>
-              <p>
-                <input name="hazards" type="checkbox" id="50yr" class="layer-off" onclick="smoothTwo('50yrFill','fill-opacity',.5,'50yrLine','line-opacity',1)"/>
-                <label for="50yr" class="valign">50-Year Inundation</label>
-              </p>
-              <p>
-                <input name="hazards" type="checkbox" id="100yr" class="layer-off" onclick="smoothTwo('100yrFill','fill-opacity',.5,'100yrLine','line-opacity',1)"/>
-                <label for="100yr" class="valign">100-Year Inundation</label>
-              </p>
-              <p>
-                <input name="hazards" type="checkbox" id="120pct" class="layer-off" onclick="smoothTwo('120pctFill','fill-opacity',.5,'120pctLine','line-opacity',1)"/>
-                <label for="120pct" class="valign">120% Inundation</label>
+              <p class="grey-text text-darken-2 note">
+                Click on the sub-basin labels to view hydrographs.
               </p>
             </div>
-          </li>
-          <li>
-            <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Alternative Analysis</div>
-            <div class="collapsible-body white">
-              <div class="row">
-                <p class="grey-text text-darken-2 note">
-                  Click on the letters for a brief description of each alternative. More detailed information can be found in <a href="../alternative-analysis/#67-alternative-plans" target="_blank" class="link">Section 6.7</a> of the report.
-                </p>
-              </div>
-              <p>
-                <input name="alternatives" type="checkbox" id="alternatives" class="layer-off" onclick="toggleTwo('alternatives','altAlignments')"/>
-                <label for="alternatives" class="valign">Alternatives</label>
+            <p>
+              <input name="watersheds" type="checkbox" id="watersheds" class="layer-on"
+                onclick="smoothTwo('watersheds','fill-opacity',.4,'watershedLabels','text-opacity',1)" checked />
+              <label for="watersheds" class="valign">Watersheds</label>
+            </p>
+            <p>
+              <input name="subbasins" type="checkbox" id="subbasins" class="layer-on"
+                onclick="toggleSmooth('subbasinLines','line-opacity',1)" checked />
+              <label for="subbasins" class="valign">Sub-basins</label>
+            </p>
+            <p class="indent">
+              <input name="subbasinLabels" type="checkbox" id="subbasinLabels" class="layer-on filled-in small-checkbox"
+                onclick="toggleLayer('subbasinLabels')" checked />
+              <label for="subbasinLabels" class="valign">Labels</label>
+            </p>
+            <p>
+              <input name="conduits" type="checkbox" id="conduits" class="layer-off"
+                onclick="smoothThree('conduits','line-opacity',1,'conduitLabels','text-opacity',1,'conduitArrows','icon-opacity',1)" />
+              <label for="conduits" class="valign">Conduits</label>
+            </p>
+            <p>
+              <input name="junctions" type="checkbox" id="junctions" class="layer-off"
+                onclick="toggleTwo('junctions','junctionLabels')" />
+              <label for="junctions" class="valign">Junctions</label>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Hydraulics</div>
+          <div class="collapsible-body white">
+            <div class="row">
+              <p class="grey-text text-darken-2 note">
+                One very important note about the hydraulic data displayed on this map: the inundation areas and
+                associated at-risk structures are not representative or derived from the FEMA regulatory 100-year
+                floodplain.
+              </p>
+              <p class="grey-text text-darken-2 note">
+                The hydraulic data on this map represents flooding from localized runoff and in no way affects any
+                property owner's regulatory floodplain status.
               </p>
             </div>
-          </li>
-          <li>
-            <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Future Planning</div>
-            <div class="collapsible-body white">
-              <p>
-                <input name="planning" type="checkbox" id="planning" class="layer-off" onclick="smoothTwo('planningAreas','line-opacity',1,'planningFill','fill-opacity',.75)"/>
-                <label for="planning" class="valign">Future Planning Areas</label>
+            <p>
+              <input name="hazards" type="checkbox" id="footprints" onclick="toggleSmooth('atRisk','fill-opacity',1)"
+                class="layer-off" />
+              <label for="footprints" class="multiline">At-Risk Structures<br />
+              </label>
+            </p>
+            <div id="filters" style="padding-left: 3rem;">
+              <p class="narrow">
+                <input name="group2" type="radio" id="fut2" value='Fut2' class="layer-on" checked />
+                <label for="fut2">2-Year</label>
               </p>
-              <p>
-                <input name="eastern" type="checkbox" id="eastern" class="layer-off" onclick="smoothTwo('easternLines','line-opacity',1,'easternLabels','text-opacity',1)"/>
-                <label for="eastern" class="valign">Eastern Corridor Basins</label>
+              <p class="narrow">
+                <input name="group2" type="radio" id="fut5" value='Fut5' class="layer-off" />
+                <label for="fut5">5-Year</label>
               </p>
-              <p>
-                <input name="apple" type="checkbox" id="apple" class="layer-off" onclick="smoothTwo('appleLines','line-opacity',1,'appleLabels','text-opacity',1)"/>
-                <label for="apple" class="valign">Apple Valley Basins</label>
+              <p class="narrow">
+                <input name="group2" type="radio" id="fut10" value='Fut10' class="layer-off" />
+                <label for="fut10">10-Year</label>
+              </p>
+              <p class="narrow">
+                <input name="group2" type="radio" id="fut50" value='Fut50' class="layer-off" />
+                <label for="fut50">50-Year</label>
+              </p>
+              <p class="narrow">
+                <input name="group2" type="radio" id="fut100" value='Fut100' class="layer-off" />
+                <label for="fut100">100-Year</label>
+              </p>
+              <p class="narrow">
+                <input name="group2" type="radio" id="fire100" value='Fire100' class="layer-off" />
+                <label for="fire100">120%</label>
               </p>
             </div>
-          </li>
-          <li>
-            <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Legend</div>
-            <div class="collapsible-body white">
-              <ul class="collection with-header grey-text text-darken-2">
-                 <li class="collection-header"><h6>Hydrology</h6></li>
-                 <li class="collection-item"><div>Sub-basins<a href="#!" class="secondary-content"><i class="material-icons grey-text text-darken-4">border_clear</i></a></div></li>
-                 <li class="collection-item"><div>Conduits<a href="#!" class="secondary-content"><i class="material-icons indigo-text text-darken-4">trending_flat</i></a></div></li>
-                 <li class="collection-item"><div>Junctions<a href="#!" class="secondary-content"><i class="material-icons deep-orange-text text-accent-3">fiber_manual_record</i></a></div></li>
-                 <li class="collection-header"><h6>Hydraulics</h6></li>
-                 <li class="collection-item"><div>At-Risk Structures<a href="#!" class="secondary-content"><i class="material-icons teal-text text-accent-3">stop</i></a></div></li>
-                 <li class="collection-item"><div>2-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons " style="color: rgb(14,9,135)">stop</i></a></div></li>
-                 <li class="collection-item"><div>5-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons " style="color: rgb(109,23,143)">stop</i></a></div></li>
-                 <li class="collection-item"><div>10-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons " style="color: rgb(161,59,139)">stop</i></a></div></li>
-                 <li class="collection-item"><div>50-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons " style="color: rgb(199,101,134)">stop</i></a></div></li>
-                 <li class="collection-item"><div>100-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons " style="color: rgb(227,147,138)">stop</i></a></div></li>
-                 <li class="collection-item"><div>120% Inundation<a href="#!" class="secondary-content"><i class="material-icons " style="color: rgb(245,194,152)">stop</i></a></div></li>
-                 <li class="collection-header"><h6>Alternatives</h6></li>
-                 <li class="collection-item"><div>Alternative Alignments<a href="#!" class="secondary-content"><i class="material-icons light-blue-text text-accent-3">remove</i></a></div></li>
-                 <li class="collection-header"><h6>Future Planning</h6></li>
-                 <li class="collection-item"><div>Future Planning Areas<a href="#!" class="secondary-content"><i class="material-icons lime-text text-accent-3">crop_16_9</i></a></div></li>
-                 <li class="collection-item"><div>Eastern Corridor Basins<a href="#!" class="secondary-content"><i class="material-icons red-text text-darken-4">crop_16_9</i></a></div></li>
-                 <li class="collection-item"><div>Apple Valley Basins<a href="#!" class="secondary-content"><i class="material-icons blue-text text-darken-4">crop_16_9</i></a></div></li>
-               </ul>
+            <p>
+              <input name="hazards" type="checkbox" id="2yr" class="layer-off"
+                onclick="smoothTwo('2yrFill','fill-opacity',.5,'2yrLine','line-opacity',1)" />
+              <label for="2yr" class="valign">2-Year Inundation</label>
+            </p>
+            <p>
+              <input name="hazards" type="checkbox" id="5yr" class="layer-off"
+                onclick="smoothTwo('5yrFill','fill-opacity',.5,'5yrLine','line-opacity',1)" />
+              <label for="5yr" class="valign">5-Year Inundation</label>
+            </p>
+            <p>
+              <input name="hazards" type="checkbox" id="10yr" class="layer-off"
+                onclick="smoothTwo('10yrFill','fill-opacity',.5,'10yrLine','line-opacity',1)" />
+              <label for="10yr" class="valign">10-Year Inundation</label>
+            </p>
+            <p>
+              <input name="hazards" type="checkbox" id="50yr" class="layer-off"
+                onclick="smoothTwo('50yrFill','fill-opacity',.5,'50yrLine','line-opacity',1)" />
+              <label for="50yr" class="valign">50-Year Inundation</label>
+            </p>
+            <p>
+              <input name="hazards" type="checkbox" id="100yr" class="layer-off"
+                onclick="smoothTwo('100yrFill','fill-opacity',.5,'100yrLine','line-opacity',1)" />
+              <label for="100yr" class="valign">100-Year Inundation</label>
+            </p>
+            <p>
+              <input name="hazards" type="checkbox" id="120pct" class="layer-off"
+                onclick="smoothTwo('120pctFill','fill-opacity',.5,'120pctLine','line-opacity',1)" />
+              <label for="120pct" class="valign">120% Inundation</label>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Alternative
+            Analysis</div>
+          <div class="collapsible-body white">
+            <div class="row">
+              <p class="grey-text text-darken-2 note">
+                Click on the letters for a brief description of each alternative. More detailed information can be found
+                in <a href="../alternative-analysis/#67-alternative-plans" target="_blank" class="link">Section 6.7</a>
+                of the report.
+              </p>
             </div>
-          </li>
-        </ul>
-        <div class="mdl-grid">
+            <p>
+              <input name="alternatives" type="checkbox" id="alternatives" class="layer-off"
+                onclick="toggleTwo('alternatives','altAlignments')" />
+              <label for="alternatives" class="valign">Alternatives</label>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Future Planning
+          </div>
+          <div class="collapsible-body white">
+            <p>
+              <input name="planning" type="checkbox" id="planning" class="layer-off"
+                onclick="smoothTwo('planningAreas','line-opacity',1,'planningFill','fill-opacity',.75)" />
+              <label for="planning" class="valign">Future Planning Areas</label>
+            </p>
+            <p>
+              <input name="eastern" type="checkbox" id="eastern" class="layer-off"
+                onclick="smoothTwo('easternLines','line-opacity',1,'easternLabels','text-opacity',1)" />
+              <label for="eastern" class="valign">Eastern Corridor Basins</label>
+            </p>
+            <p>
+              <input name="apple" type="checkbox" id="apple" class="layer-off"
+                onclick="smoothTwo('appleLines','line-opacity',1,'appleLabels','text-opacity',1)" />
+              <label for="apple" class="valign">Apple Valley Basins</label>
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header grey"><i class="material-icons right">keyboard_arrow_down</i>Legend</div>
+          <div class="collapsible-body white">
+            <ul class="collection with-header grey-text text-darken-2">
+              <li class="collection-header">
+                <h6>Hydrology</h6>
+              </li>
+              <li class="collection-item">
+                <div>Sub-basins<a href="#!" class="secondary-content"><i
+                      class="material-icons grey-text text-darken-4">border_clear</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>Conduits<a href="#!" class="secondary-content"><i
+                      class="material-icons indigo-text text-darken-4">trending_flat</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>Junctions<a href="#!" class="secondary-content"><i
+                      class="material-icons deep-orange-text text-accent-3">fiber_manual_record</i></a></div>
+              </li>
+              <li class="collection-header">
+                <h6>Hydraulics</h6>
+              </li>
+              <li class="collection-item">
+                <div>At-Risk Structures<a href="#!" class="secondary-content"><i
+                      class="material-icons teal-text text-accent-3">stop</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>2-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons "
+                      style="color: rgb(14,9,135)">stop</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>5-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons "
+                      style="color: rgb(109,23,143)">stop</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>10-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons "
+                      style="color: rgb(161,59,139)">stop</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>50-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons "
+                      style="color: rgb(199,101,134)">stop</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>100-Year Inundation<a href="#!" class="secondary-content"><i class="material-icons "
+                      style="color: rgb(227,147,138)">stop</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>120% Inundation<a href="#!" class="secondary-content"><i class="material-icons "
+                      style="color: rgb(245,194,152)">stop</i></a></div>
+              </li>
+              <li class="collection-header">
+                <h6>Alternatives</h6>
+              </li>
+              <li class="collection-item">
+                <div>Alternative Alignments<a href="#!" class="secondary-content"><i
+                      class="material-icons light-blue-text text-accent-3">remove</i></a></div>
+              </li>
+              <li class="collection-header">
+                <h6>Future Planning</h6>
+              </li>
+              <li class="collection-item">
+                <div>Future Planning Areas<a href="#!" class="secondary-content"><i
+                      class="material-icons lime-text text-accent-3">crop_16_9</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>Eastern Corridor Basins<a href="#!" class="secondary-content"><i
+                      class="material-icons red-text text-darken-4">crop_16_9</i></a></div>
+              </li>
+              <li class="collection-item">
+                <div>Apple Valley Basins<a href="#!" class="secondary-content"><i
+                      class="material-icons blue-text text-darken-4">crop_16_9</i></a></div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <div class="mdl-grid">
         <a id="clear" class="waves-effect waves-light btn">Clear All Layers</a>
-        </div>
+      </div>
     </div>
     <main class="mdl-layout__content">
       <div class="page-content">
         <div id='map'></div>
       </div>
     </main>
-</div>
+  </div>
 
-<script src="toggleLayer.js"></script>
-<script src="masterplan.js"></script>
+  <script src="toggleLayer.js"></script>
+  <script src="masterplan.js"></script>
 
 </body>
+
 </html>
